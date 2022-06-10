@@ -17,12 +17,13 @@ Readme con apuntes, prácticas y códigos relacionados a la UNLP informática. P
 <div align="center">
 
 <p align="center">
-  <a href="https://evilmartians.com/?utm_source=size-limit">
+  <a >
     <img src="https://user-images.githubusercontent.com/55964635/172717050-913bbad4-e92e-48ee-8ffa-a8b9b74ec5d9.png"
-         alt="Sponsored by Evil Martians" width="236" height="54">
+          width="236" height="54">
   </a>
 </p>
 
+</div>
 
 ### 1️⃣ Primer Año
 
@@ -45,5 +46,4 @@ Readme con apuntes, prácticas y códigos relacionados a la UNLP informática. P
 <a href="https://github.com/Fabian-Martinez1/FOD"><img width="263" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Fabian-Martinez1&repo=FOD&theme=react&bg_color=1F222E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="dice-roll-albert-ext"></a>
 <a href="https://github.com/Fabian-Martinez1/AyED"><img width="263" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Fabian-Martinez1&repo=ayed&theme=react&bg_color=1F222E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="readme-typing-svg"></a>
 <a href="https://github.com/Fabian-Martinez1/Seminario-de-Lenguajes-Python"><img width="263" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Fabian-Martinez1&repo=Seminario-de-Lenguajes-Python&theme=react&bg_color=1F222E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="custom-icon-badges"></a>
-</div>
 </div>
