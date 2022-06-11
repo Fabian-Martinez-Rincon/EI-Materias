@@ -5,7 +5,7 @@
 
 # --- Required options --- #
 
-favicon: assets/Png.ico
+favicon: "/assets/Png.ico"
 
 # Name of website
 title: EI-Materias
