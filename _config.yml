@@ -16,9 +16,9 @@ author: MITH arg
 navbar-links:
   Nosotros: "aboutme"
   Materias:
-    - Primero: "Primero"
-    - Segundo: "Segundo"
-    - Tercero: "Tercero"
+    - Primero: "primero"
+    - Segundo: "segundo"
+    - Tercero: "tercero"
   Author's home: "https://mith-arg.github.io/mith-arg/"
 
 # --- Logo --- #
