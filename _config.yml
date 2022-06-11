@@ -116,9 +116,9 @@ link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#242728"
 footer-text-col: "#888888"
-footer-link-col: "#bfbfbf"
+footer-link-col: "#151515"
 footer-hover-col: "#0085A1"
-
+#151515 bfbfbf
 #navbar-col: "#EAEAEA"
 #navbar-text-col: "#404040"
 #navbar-border-col: "#DDDDDD"
