@@ -5,6 +5,8 @@
 
 # --- Required options --- #
 
+favicon: assets/Png.ico
+
 # Name of website
 title: EI-Materias
 
@@ -19,7 +21,7 @@ navbar-links:
     - Primero: "primero"
     - Segundo: "segundo"
     - Tercero: "tercero"
-  Author's home: "https://mith-arg.github.io/mith-arg/"
+  MITH arg: "https://mith-arg.github.io/mith-arg/"
 
 # --- Logo --- #
 
