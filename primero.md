@@ -1,4 +1,9 @@
-### 1️⃣ Primer Año
+---
+layout: page
+title: 1️⃣ Primer Año
+subtitle: Materias
+---
+
 
 ### Ingreso
 

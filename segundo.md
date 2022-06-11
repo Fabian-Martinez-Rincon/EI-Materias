@@ -1,4 +1,8 @@
-### 2️⃣ Segundo Año
+---
+layout: page
+title: 2️⃣ Segundo Año
+subtitle: Materias
+---
 
 ### Tercer Semestre
 

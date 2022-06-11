@@ -1,4 +1,8 @@
-### 3️⃣ Tercer Año
+---
+layout: page
+title: 3️⃣ Tercer Año
+subtitle: Materias
+---
 
 ### Quinto Semestre
 
