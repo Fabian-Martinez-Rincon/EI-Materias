@@ -5,7 +5,7 @@
 
 # --- Required options --- #
 
-favicon: /assets/Png.ico
+favicon: assets/Png.ico
 
 # Name of website
 title: EI-Materias
@@ -51,7 +51,7 @@ social-network-links:
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-  linkedin: in/fabián-martinez-rincon-03b458200/
+  linkedin: fabian-martinez-rincon
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
