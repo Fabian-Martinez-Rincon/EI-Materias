@@ -2,6 +2,7 @@
 layout: page
 title: 2️⃣ Segundo Año
 subtitle: Materias
+tags: [FOD,AYED,Seminarios de , Python,C, JavaScript]
 ---
 
 <div align="center">

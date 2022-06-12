@@ -2,6 +2,7 @@
 layout: page
 title: 1️⃣ Primer Año
 subtitle: Materias
+tags: [EPA,CADP,OC,Taller de Programacion, AC]
 ---
 
 <div align = "center">

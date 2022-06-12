@@ -2,6 +2,7 @@
 layout: page
 title: 3️⃣ Tercer Año
 subtitle: Materias
+tags: [OO2]
 ---
 
 <div align = "center">
