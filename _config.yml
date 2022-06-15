@@ -1,0 +1,25 @@
+# Site wide configuration
+
+title: Academic Website of Ted Laderas
+locale: en_ARG
+logo: 
+# filename of a logo image that has been placed into your images directory
+
+# Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: Ted Laderas
+  avatar: bio-photo.jpg
+  bio: "This is a sample Jekyll academic website."
+  email: fabianmartinezrincon.123@gmail.com
+  # Do not include the @ symbol in your Twitter username
+  twitter: laderast
+  linkedin: #username
+  github: laderast
+  orcid: # ID Number (ex. 0000-0000-0000-0000)
+  researchgate: #username
+  mendeley: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #id
