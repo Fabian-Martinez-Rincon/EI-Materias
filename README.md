@@ -15,24 +15,25 @@ Readme con apuntes, prácticas y códigos relacionados a la UNLP informática. P
 
 ### Indice
 
-- [Ingreso](#Ingreso)
+
+- [🎟️ Ingreso](#Ingreso)
   - [EPA](#EPA)
-- [Primer Semestre](#Primer_Semestre)
+- [1️⃣ Primer Semestre](#Primer_Semestre)
   - [CADP](#CADP)
   - [OC](#OC)
-- [Segundo Semestre](#Segundo_Semestre)
+- [2️⃣ Segundo Semestre](#Segundo_Semestre)
   - [Taller de Programación](#Taller_de_Programación)
   - [AC](#AC)
-- [Tercer Semestre](#Tercer_Semestre)
+- [3️⃣ Tercer Semestre](#Tercer_Semestre)
   - [AYED](#AYED)
   - [FOD](#FOD)
   - [Seminarios](#Seminarios)
     - [Python](#Python)
     - [JavaScript](#JavaScript)
     - [C](#C)
-- [Cuarto Semestre](#Cuarto_Semestre)
+- [4️⃣  Cuarto Semestre](#Cuarto_Semestre)
   - [OO1](#OO1)
-- [Quinto Semestre](#Quinto_Semestre)
+- [5️⃣ Quinto Semestre](#Quinto_Semestre)
   - [OO2](#OO2)
 
 
