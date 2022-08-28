@@ -41,5 +41,20 @@ tags: [FOD,AYED,Seminarios de , Python,C, JavaScript]
 <h4>Orientación a Objetos 1 (OO1)</h4>
 
 <a href="https://github.com/CathGaitan/OO1-2021"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=CathGaitan&repo=OO1-2021&theme=react&bg_color=1F223E&title_color=8900FF&icon_color=F8D866&hide_border=true&show_icons=false" alt="github-readme-streak-stats"></a>
+<a href="https://github.com/ZonaFabo/OO1"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ZonaFabo&repo=OO1&theme=react&bg_color=1F223E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="readme-typing-svg"></a>
+
+
+<h4>Introducción a Sistemas Operativos (ISO)</h4>
+
+<a href="https://github.com/ZonaFabo/ISO"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ZonaFabo&repo=ISO&theme=react&bg_color=1F223E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="readme-typing-svg"></a>
+
+
+<h4>Ingenieria de Software IS1()</h4>
+
+<a href="https://github.com/ZonaFabo/IS1"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ZonaFabo&repo=IS1&theme=react&bg_color=1F223E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="readme-typing-svg"></a>
+
+<h4> Diseño de Base de Datos (DBD)</h4>
+
+<a href="https://github.com/ZonaFabo/DBD"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ZonaFabo&repo=dbd&theme=react&bg_color=1F223E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="readme-typing-svg"></a>
 
 </div>
