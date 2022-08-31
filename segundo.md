@@ -55,6 +55,7 @@ tags: [FOD,AYED,Seminarios de , Python,C, JavaScript]
 
 <h4> Diseño de Base de Datos (DBD)</h4>
 
+<a href="https://github.com/agusrnfr/DBD"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=agusrnfr&repo=DBD&theme=react&bg_color=1F223E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="github-readme-streak-stats"></a>
 <a href="https://github.com/ZonaFabo/DBD"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=ZonaFabo&repo=dbd&theme=react&bg_color=1F223E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="readme-typing-svg"></a>
 
 </div>
