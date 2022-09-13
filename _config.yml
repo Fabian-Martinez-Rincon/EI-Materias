@@ -16,6 +16,7 @@ author: MITH arg
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Inicio: "/"
   Materias:
     - Primero: "primero"
     - Segundo: "segundo"
