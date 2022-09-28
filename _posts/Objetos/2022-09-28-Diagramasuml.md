@@ -1,3 +1,13 @@
+---
+layout: post
+title: ☕ Orientación a Objetos 1
+subtitle: Post
+cover-img: /assets/img/portadaObjetos.jpg
+thumbnail-img: /assets/img/objetos.png
+share-img: /assets/img/portadaObjetos.jpg
+tags: [books, objetos]
+---
+
 # Diagramas de clases UML (resumen)
 
 - [Pagina anterior](/OO1/)

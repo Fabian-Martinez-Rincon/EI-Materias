@@ -1,3 +1,13 @@
+---
+layout: post
+title: ☕ Orientación a Objetos 1
+subtitle: Post
+cover-img: /assets/img/portadaObjetos.jpg
+thumbnail-img: /assets/img/objetos.png
+share-img: /assets/img/portadaObjetos.jpg
+tags: [books, objetos]
+---
+
 # Criterios y heurísticas de diseño
 
 - [Pagina anterior](/OO1/)
