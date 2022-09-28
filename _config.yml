@@ -108,19 +108,19 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#242728"
-navbar-text-col: "#FFFFFF"
-navbar-border-col: "#888888"
-page-col: "#151515"
-text-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#242728"
-footer-text-col: "#FFFFFF"
-footer-link-col: "#151515"
-footer-hover-col: "#0085A1"
-#151515 bfbfbf
-
+#navbar-col: "#242728"
+#navbar-text-col: "#FFFFFF"
+#navbar-border-col: "#888888"
+#page-col: "#151515"
+#text-col: "#FFFFFF"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#footer-col: "#242728"
+#footer-text-col: "#FFFFFF"
+#footer-link-col: "#151515"
+#footer-hover-col: "#0085A1"
+##151515 bfbfbf
+#
 
 #navbar-col: "#EAEAEA"
 #navbar-text-col: "#404040"
@@ -148,18 +148,18 @@ footer-hover-col: "#0085A1"
 #footer-hover-col: "#0085A1"
 
 
-#navbar-col: "#0d1117"
-#navbar-text-col: "#718096"
-#navbar-border-col: "#151a23"
-#page-col: "#151a23"
-#text-col: "#FFFFFF"
-#link-col: "#ffb342"
-#hover-col: "#ffd160"
-#footer-col: "#0d1117"
-#footer-text-col: "#718096"
-#footer-link-col: "#765bff"
-
+navbar-col: "#0d1117"
+navbar-text-col: "#718096"
+navbar-border-col: "#1a202c"
+page-col: "#1a202c"
+text-col: "#FFFFFF"
+link-col: "#ffb342"
+hover-col: "#ffd160"
+footer-col: "#0d1117"
+footer-text-col: "#718096"
+footer-link-col: "#765bff"
 font-family: "'Verdana', sans-serif"
+
 
 mobile-theme-col: "#5A3EFD"
 
