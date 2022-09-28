@@ -871,7 +871,7 @@ pre {
   margin: 0;
 }
 .highlight > pre {
-  background-color: beige;
+  background-color: rgb(174, 174, 174);
   background-image: linear-gradient(
     rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
