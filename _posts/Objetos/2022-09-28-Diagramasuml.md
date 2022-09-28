@@ -21,11 +21,11 @@ El objetivo de este documento es mostrar un breve resumen de los principales ele
 # Clases
 En general, las clases se denotan con tres compartimientos, que permiten especificar el nombre, los atributos y los métodos, como puede verse en la siguiente figura:
 
-<div align="center"><img src="../img/Diagramas/1.png"/> </div>
+<div align="center"><img src="./img/1.png"/> </div>
 
 **Por ejemplo:**
 
-<div align="center"><img src="../img/Diagramas/2.png"/> </div>
+<div align="center"><img src="./img/2.png"/> </div>
 
 ### Nombre de la clase
 - La clase debe tener el nombre en singular.
@@ -71,7 +71,7 @@ instancias de la clase que lo implementa
 # Asociaciones
 Los diferentes tipos de asociaciones se denotan con distintos tipos de flechas
 
-<p><img  align='left' src="../img/Diagramas/3.png"></p>
+<p><img  align='left' src="./img/3.png"></p>
 
 **1)** Asociación\
 **2)** Agregación\
@@ -93,7 +93,7 @@ la flecha.
 # Generalización
 
 
-<p><img  align='left' src="../img/Diagramas/4.png"></p>
+<p><img  align='left' src="./img/4.png"></p>
 
 La notación para indicar la relación de generalización es una flecha con la punta triangular, sin relleno, apuntando en dirección a la superclase.
 
@@ -105,7 +105,7 @@ La notación para indicar la relación de generalización es una flecha con la p
 
 # Interfaces
 
-<p><img  align='left' src="../img/Diagramas/5.png"></p>
+<p><img  align='left' src="./img/5.png"></p>
 
 La interfaz se denota con el estereotipo <\<interface>\>.\
 **1)** El nombre debe denotarse en cursiva\
