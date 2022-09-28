@@ -2,10 +2,10 @@
 layout: post
 title: ☕ Criterios y heurísticas de diseño
 subtitle: Post
-cover-img: /assets/img/portadaObjetos.jpg
-thumbnail-img: /assets/img/objetos.png
-share-img: /assets/img/portadaObjetos.jpg
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
 tags: [books, objetos, Criterios y heurísticas de diseño]
+comments: true
 ---
 
 # Criterios y heurísticas de diseño
