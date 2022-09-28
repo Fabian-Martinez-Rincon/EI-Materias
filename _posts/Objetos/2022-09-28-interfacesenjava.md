@@ -1,7 +1,6 @@
 ---
 layout: post
 title: ☕ Interfaces en Java y UML
-subtitle: Post
 tags: [books, objetos, Interfaces en Java y UML]
 ---
 

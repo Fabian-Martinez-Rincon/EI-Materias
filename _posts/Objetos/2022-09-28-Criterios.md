@@ -1,7 +1,6 @@
 ---
 layout: post
-title: ☕ Criterios y heurísticas de diseño
-subtitle: Post
+title: 📜 Criterios y heurísticas de diseño
 tags: [books, objetos, Criterios y heurísticas de diseño]
 comments: true
 ---

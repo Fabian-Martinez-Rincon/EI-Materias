@@ -1,7 +1,6 @@
 ---
 layout: post
-title: ☕ Diagramas de clases UML (resumen)
-subtitle: Post
+title: 📈 Diagramas de clases UML (resumen)
 tags: [books, objetos, diagramas uml]
 ---
 
