@@ -2,16 +2,11 @@
 layout: post
 title: ☕ Criterios y heurísticas de diseño
 subtitle: Post
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
 tags: [books, objetos, Criterios y heurísticas de diseño]
 comments: true
 ---
 
 # Criterios y heurísticas de diseño
-
-- [Pagina anterior](/OO1/)
-
 **Heurística** : conjunto de técnicas o métodos para resolver un problema.
 
 - [Malos olores de diseño](#malos-olores-de-diseño)

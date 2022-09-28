@@ -2,16 +2,10 @@
 layout: post
 title: ☕ Diagramas de clases UML (resumen)
 subtitle: Post
-cover-img: /assets/img/portadaObjetos.jpg
-thumbnail-img: /assets/img/objetos.png
-share-img: /assets/img/portadaObjetos.jpg
 tags: [books, objetos, diagramas uml]
 ---
 
 # Diagramas de clases UML (resumen)
-
-- [Pagina anterior](/OO1/)
-
 El objetivo de este documento es mostrar un breve resumen de los principales elementos de un diagrama de clases, para conocer su sintaxis. 
 
 - [Clases](#clases)
