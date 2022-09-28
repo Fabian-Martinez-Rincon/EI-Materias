@@ -1,11 +1,11 @@
 ---
 layout: post
-title: ☕ Orientación a Objetos 1
+title: ☕ Interfaces en Java y UML
 subtitle: Post
 cover-img: /assets/img/portadaObjetos.jpg
 thumbnail-img: /assets/img/objetos.png
 share-img: /assets/img/portadaObjetos.jpg
-tags: [books, objetos]
+tags: [books, objetos, Interfaces en Java y UML]
 ---
 
 # Interfaces en Java y UML
