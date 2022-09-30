@@ -121,7 +121,7 @@ footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
 
-font-family: "'Verdana', sans-serif"
+#font-family: "'Verdana', sans-serif"
 
 
 mobile-theme-col: "#5A3EFD"
