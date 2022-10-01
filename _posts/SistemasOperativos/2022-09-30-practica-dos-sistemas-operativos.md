@@ -341,15 +341,38 @@ ejemplo
 ## `6)` Otros comandos de Linux (Indique funcionalidad y parámetros)
 
 `(a)` ¿A qué hace referencia el concepto de empaquetar archivos en GNU/Linux?\
-`(b)` Seleccione 4 archivos dentro de algún directorio al que tenga permiso y sume el tamaño de cada uno de estos archivos. Cree un archivo empaquetado conteniendo estos 4 archivos y compare los tamaños de los mismos. ¿Qué característica nota?\
+Es agrupar en un solo fichero varios ficheros y/o directorios
+
+`(b)` Seleccione 4 archivos dentro de algún directorio al que tenga permiso y sume el tamaño de cada uno de estos archivos. Cree un archivo empaquetado conteniendo estos 4 archivos y compare los tamaños de los mismos. ¿Qué característica nota?
+
+```cmd
+tar cvf ejercicio6.tar directorioNuevo
+```
+
+los archivos empaquetados redujeron su tamaño en comparaciona estar los 4 “sueltos”
+
+
 `(c)` ¿Qué acciones debe llevar a cabo para comprimir 4 archivos en uno solo? Indique la secuencia de comandos ejecutados.\
+Teniendo en cuenta que tenemos 4 archivos en el directorio Descargas/ejercicio6 y nos situamos en Descargas ejecutamos lo siguiente
+
+```shell
+tar cvfz archivo.tar.gz ejercicio 6
+```
+Esto nos dejaria un archivo empaquetado de archivos comprimidos en un solo archivo archivo.tar.gz y para acceder a dicha informacion haremos
+
+```powershell
+tar xvfz archivo.tar.gz
+```
+
 `(d)` ¿Pueden comprimirse un conjunto de archivos utilizando un único comando?\
+Si los archivos están en el mismo directorio utilizamos el comando visto anteriormente
+
 `(e)` Investigue la funcionalidad de los siguientes comandos:
-- **tar:**
-- **grep:**
-- **gzip:**
-- **zgrep:**
-- **wc:**
+- **tar:** empaqueta/desempaqueta varios archivos en uno solo, puede realizar compresión sin perdida
+- **grep:** Buscar todos los archivos de usuarios en los que su nombre contiene la cadena “.conf”
+- **gzip:** comprime/descomprime archivos
+- **zgrep:** lo mismo que grep pero puede estar comprimido el archivo
+- **wc:**  cuenta nuevas líneas, palabras y bytes para los archivos dados
 
 ## `7)` Ejercicio
 
@@ -386,7 +409,8 @@ shutdown {apaga el sistema}
 No esta permitido
 
 `(c)` Buscar todos los archivos de usuarios en los que su nombre contiene la cadena “.conf”\
-`grep -iRl .conf /home/user`
+- `find / -name *.config`
+- `find / -type f -name NOMBREDEARCHIVO`
 
 `(d)` Guardar una lista de procesos en ejecución el archivo /home/\<su nombre de usuario>/procesos\
 `ps > /home/user/procesos`
@@ -404,7 +428,7 @@ No esta permitido
 
 `chmod 650 /home/user/yyyy`
 
-`(g)` Borrar todos los archivos del directorio /tmp\
+`(g)` Borrar todos los archivos del directorio /tmp
 ```powershell
 cd /tmp
 rm *
@@ -418,19 +442,64 @@ rm *
 
 ## `9)` Indique qué comando sería necesario ejecutar para realizar cada una de las siguientes acciones
 
-`(a)` Ingrese al sistema como usuario “root”\
-`(b)` Cree un usuario. Elija como nombre, por convención, la primer letra de su nombre seguida de su apellido. Asígnele una contraseña de acceso.\
+`(a)` Ingrese al sistema como usuario “root”
+```powershell
+su -
+```
+`(b)` Cree un usuario. Elija como nombre, por convención, la primer letra de su nombre seguida de su apellido. Asígnele una contraseña de acceso.
+```shell
+sudo adduser {crear}
+```
 `(c)` ¿Qué archivos fueron modificados luego de crear el usuario y qué directorios se crearon?\
-`(d)` Crear un directorio en /tmp llamado cursada2017\
-`(e)` Copiar todos los archivos de /var/log al directorio antes creado.\
-`(f)` Para el directorio antes creado (y los archivos y subdirectorios contenidos en él) cambiar el propietario y grupo al usuario creado y grupo users.\
-`(g)` Agregue permiso total al dueño, de escritura al grupo y escritura y ejecución a todos los demás usuarios para todos los archivos dentro de un directorio en forma recursiva.\
-`(h)` Acceda a otra terminal virtual para loguearse con el usuario antes creado.\
-`(i)` Una vez logueado con el usuario antes creado, averigüe cuál es el nombre de su terminal.\
-`(j)` Verifique la cantidad de procesos activos que hay en el sistema.\
-`(k)` Verifiqué la cantidad de usuarios conectados al sistema.\
-`(l)` Vuelva a la terminal del usuario root, y envíele un mensaje al usuario anteriormente creado, avisándole que el sistema va a ser apagado.\
+Se modificaron los archivos de etc/shadow y se creó el directorio home/crear
+
+`(d)` Crear un directorio en /tmp llamado cursada2017
+```shell
+mkdir /tmp/cursada2017
+```
+
+`(e)` Copiar todos los archivos de /var/log al directorio antes creado.
+```shell
+cp /var/log/* /tmp/cursada2017
+```
+`(f)` Para el directorio antes creado (y los archivos y subdirectorios contenidos en él) cambiar el propietario y grupo al usuario creado y grupo users.
+```powershell
+chown nombreUsuario:nombreUsuario /tmp/cursada2017
+```
+`(g)` Agregue permiso total al dueño, de escritura al grupo y escritura y ejecución a todos los demás usuarios para todos los archivos dentro de un directorio en forma recursiva.
+```powershell
+chmod -R 745 /tmp/cursada2017
+```
+
+`(h)` Acceda a otra terminal virtual para loguearse con el usuario antes creado.
+```powershell
+sudo login user
+```
+
+`(i)` Una vez logueado con el usuario antes creado, averigüe cuál es el nombre de su terminal.
+```powershell
+hostname
+ps -p 544
+```
+`(j)` Verifique la cantidad de procesos activos que hay en el sistema.
+```powershell
+ps aux | wc -l
+```
+`(k)` Verifiqué la cantidad de usuarios conectados al sistema.
+```powershell
+who
+```
+`(l)` Vuelva a la terminal del usuario root, y envíele un mensaje al usuario anteriormente creado, avisándole que el sistema va a ser apagado.
+```powershell
+sudo shutdown 1 'El sistema se va a apagar pa'
+tmb sin apagar
+wall "En un minuto apagaremos el sistema."
+```
 `(m)` Apague el sistema
+```powershell
+sudo shutdown now
+```
+
 
 ## `10)` Indique qué comando sería necesario ejecutar para realizar cada una de las siguientes acciones
 
