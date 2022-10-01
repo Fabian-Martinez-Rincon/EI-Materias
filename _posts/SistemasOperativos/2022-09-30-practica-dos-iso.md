@@ -503,51 +503,81 @@ sudo shutdown now
 
 ## `10)` Indique qué comando sería necesario ejecutar para realizar cada una de las siguientes acciones
 
-`(a)` Cree un directorio cuyo nombre sea su número de legajo e ingrese a él.\
+`(a)` Cree un directorio cuyo nombre sea su número de legajo e ingrese a él.
+```powershell
+mkdir 19508/3 {No se puede dado q confunde / con un desplazamiento de directorio}
+```
+
 `(b)` Cree un archivo utilizando el editor de textos vi, e introduzca su información personal:\
-Nombre, Apellido, Número de alumno y dirección de correo electrónico. El archivo debe llamarse "LEAME".\
+Nombre, Apellido, Número de alumno y dirección de correo electrónico. El archivo debe llamarse "LEAME".
+```powershell
+cd legajo
+vi LEAME
+```
+
 `(c)` Cambie los permisos del archivo LEAME, de manera que se puedan ver reflejados los siguientes permisos:
 - **Dueño:** ningún permiso
 - **Grupo:** permiso de ejecución
 - **Otros:** todos los permisos
 
+```powershell
+chmod 017 LEAME
+```
+
 `(d)` Vaya al directorio /etc y verifique su contenido. Cree un archivo dentro de su directorio personal cuyo nombre sea leame donde el contenido del mismo sea el listado de todos los archivos y directorios contenidos en /etc. ¿Cuál es la razón por la cuál puede crear este archivo si ya existe un archivo llamado "LEAME.en este directorio?.\
+Se puede porque unix es case sensitive y distingue entre mayúsculas y minúsculas.
+
 `(e)` ¿Qué comando utilizaría y de qué manera si tuviera que localizar un archivo dentro del filesystem? ¿Y si tuviera que localizar varios archivos con características similares? Explique el concepto teórico y ejemplifique.\
+utilizaría el comando find para buscar en ese directorio y especificando por parametro los filtros necesarios por ej todos los que comiencen de 0 a 9
+```powershell
+find / -name "[0-9]*"
+```
+si queremos buscar con expresiones regulares añadimos -regex, si queremos por tamaño -size, por usuario -user
+
 `(f)` Utilizando los conceptos aprendidos en el punto e), busque todos los archivos cuya extensión sea .so y almacene el resultado de esta búsqueda en un archivo dentro del directorio creado en a). El archivo deberá llamarse .ejercicio_f".
+
+```powershell
+find / -name "*.os" > /home/user/legajo/ejerciciof
+```
 
 ## `11)` Ejercicio
 
 Indique qué acción realiza cada uno de los comandos indicados a continuación considerando su orden. Suponga que se ejecutan desde un usuario que no es root ni pertenece al grupo de root. (Asuma que se encuentra posicionado en el directorio de trabajo del usuario con el que se logueó). En caso de no poder ejecutarse el comando indique la razón:
 
-```
-mkdir iso
-cd . / iso; ps > f0
-ls > f1
-cd /
-echo $HOME
-ls −l $> $HOME/ iso / l s
-cd $HOME; mkdir f2
-ls −ld f2
-chmod 341 f2
-touch dir
-cd f2
-cd ~/ iso
-pwd > f3
-ps | grep ' ps ' | wc −l >> ../f2/f3
-chmod 700 . . / f 2 ; cd . .
-find . −name e t c / passwd
-find / −name e t c / passwd
-mkdir ejercicio5
+```powershell
+mkdir iso {Crea el directorio iso}
+cd . / iso; ps > f0 {Me situo en iso y creo el archivo f0 con los procesos en ejecucion}
+ls > f1 {Guardo en F1 la lista de archivos en el directorio iso}
+cd / {Me posiciono en la raiz }
+echo $HOME {muestra en pantalla la direccion del directorio personal del usuario}
+ls −l $> $HOME/ iso / l s {No se puede acceder a $ no existe el fichero o directorio}
+cd $HOME; mkdir f2 {Nos situamos en el directorio personal y creamos el directorio f2}
+ls −ld f2 {Se da un listado detallado de f2}
+chmod 341 f2  {Se modifican los permisos de f2;Es,Ej para usuario,L para Grupo, y Ej para otros}
+touch dir {se crea el archivo dir}
+cd f2 {accedemos al directoriio f2}
+cd ~/ iso {accedemos a la carpeta iso}
+pwd > f3 {se guarda en el archivo f3 la direccion de la carpeta iso}
+ps | grep ' ps ' | wc −l >> ../f2/f3 {se obtienen los procesos, se usa de entrada para grep el cual filtra todos los que posean ps,pra luego almacenar la cantidad de lineas obtenidas luegro de dicho filtro y añadirlas al archivo f3}
+chmod 700 .. / f2 ; cd .. {Se modifica el acceso de f2 dando al usuario todos los permisos y a los demas nada, volviendo despues al directorio personal}
+find . −name e t c / passwd {Lanza un warning por mal uso del comando}
+find / −name e t c / passwd {filtra todos los archivos de passwd por nombre en orden}
+mkdir ejercicio5 {crea el directorio ejercicio5}
 ...................................
 .............................................
 ```
 
-`(a)` Inicie 2 sesiones utilizando su nombre de usuario y contraseña. En una sesión vaya siguiendo paso a paso las órdenes que se encuentran escritas en el cuadro superior. En la otra sesión, cree utilizando algún editor de textos un archivo que se llame. ejercicio10_explicacion"dentro del directorio creado en el ejercicio 9.a) y, para cada una de las órdenes que ejecute en la otra sesión, realice una breve explicación de los resultados obtenidos.\
+`(a)` Inicie 2 sesiones utilizando su nombre de usuario y contraseña. En una sesión vaya siguiendo paso a paso las órdenes que se encuentran escritas en el cuadro superior. En la otra sesión, cree utilizando algún editor de textos un archivo que se llame. ejercicio10_explicacion"dentro del directorio creado en el ejercicio 9.a) y, para cada una de las órdenes que ejecute en la otra sesión, realice una breve explicación de los resultados obtenidos. (EXPLICADO ARRIBA)
+
 `(b)` Complete en el cuadro superior los comandos 19 y 20, de manera tal que realicen la siguiente acción:
 - `19:` Copiar el directorio iso y todo su contenido al directorio creado en el inciso 9.a).
 - `20:` Copiar el resto de los archivos y directorios que se crearon en este ejercicio al directorio creado en el ejercicio 9.a).
+```powershell
+cp -r iso $HOME/cursada2017
+cp muchas cosas y pasarlas a $HOME/cursada2017 no seas gede xd
+```
 
-`(c)` Ejecute las órdenes 19 y 20 y comentelas en el archivo creado en el inciso a).
+`(c)` Ejecute las órdenes 19 y 20 y comentelas en el archivo creado en el inciso a). ya ta creo
 
 ![image](https://user-images.githubusercontent.com/55964635/189272687-459c381d-b44c-4a8d-b3d0-aa3acc44e1ae.png)
 
@@ -572,10 +602,46 @@ referencia a archivos:
   - **Grupo:** Permisos de escritura
   - **Otros:** Permisos de escritura y ejecución
 
+```powershell
+mv f3 $HOME {Mueva el archivo "f3.al directorio de trabajo /home/usuario.}
+cp f4 $HOME/dir11
+cp f4 $HOME/dir11/f7
+mkdir copia; cp -a dir11 copia
+cd iso;mv f0 archivo; ls  -ld archivo
+chmod 617 archivo
+mv f3 f3.exe; cd $HOME/dir11 ; mov f4 f4.exe
+chmod 023 f3.exe f4.exe
+```
 
 ## `13)` Indique qué comando/s es necesario para realizar cada una de las acciones de la siguiente secuencia de pasos (considerando su orden de aparición):
-`(a)` Cree un directorio llamado logs en el directorio /tmp.\
-`(b)` Copie todo el contenido del directorio /var/log en el directorio creado en el punto anterior.\
-`(c)` Empaquete el directorio creado en 1, el archivo resultante se debe llamar "misLogs.tar".\
-`(d)` Empaquete y comprima el directorio creado en 1, el archivo resultante se debe llamar "misLogs.tar.gz".\
+`(a)` Cree un directorio llamado logs en el directorio /tmp.
+```powershell
+cd /tmp; mkdir logs
+```
+`(b)` Copie todo el contenido del directorio /var/log en el directorio creado en el punto anterior.
+```powershell
+cp -a /var/log/. /tmp/logs
+```
+`(c)` Empaquete el directorio creado en 1, el archivo resultante se debe llamar "misLogs.tar".
+```powershell
+tar cvf misLogs.tar logs
+```
+`(d)` Empaquete y comprima el directorio creado en 1, el archivo resultante se debe llamar "misLogs.tar.gz".
+```powershell
+tar cvfz misLogs.tar.gz logs
+```
 `(e)` Copie los archivos creados en 3 y 4 al directorio de trabajo de su usuario.
+```powershell
+cp misLoggs.tar $HOME
+cp misLogs.tar.gz $HOME
+```
+`f)` Elimine el directorio creado en 1, logs
+```powershell
+rm -r logs
+```
+
+`g)` Desempaquete los archivos creados en 3 y 4 en do directorios diferentes.
+```powershell
+tar xvf misLogs.tar -C 1 
+tar xvfz misLogs.tar.gz -C 2
+```
