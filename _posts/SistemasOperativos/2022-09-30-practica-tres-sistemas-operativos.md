@@ -46,7 +46,7 @@ Están orientados para:
 
 
 # 2) Ejercicio
-Investigar la funcionalidad de los comandos echo y read/
+Investigar la funcionalidad de los comandos echo y read
 - `Echo:` Se utiliza en los scripts de Bash y en los archivos por lotes para mostrar el texto de estado en un archivo o en tu pantalla. 
 - `Read:` se trata del input desde teclado
 
@@ -91,8 +91,8 @@ Parametrización: ¿Cómo se acceden a los parámetros enviados al script al mom
 
 
 # 5) Ejercicio
- ¿Cual es la funcionalidad de comando exit? ¿Qué valores recibe como parámetro y cual es su significado?
-
+ ¿Cual es la funcionalidad de comando exit? ¿Qué valores recibe como parámetro y cual es su significado?\
+Exit es un comando básico en Linux que cierra las ventanas, las conexiones remotas o la pantalla del terminal.  El comando exit puede arrojar un número dentro de un rango de 0 a 255
 
 # 6) Ejercicio
 El comando **expr** permite la evaluación de expresiones. Su sintaxis es: **expr arg1 op arg2**, donde **arg1 y arg2** representan argumentos y op la operación de la expresión. Investigar que tipo de operaciones se pueden utilizar
