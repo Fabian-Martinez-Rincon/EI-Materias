@@ -51,7 +51,7 @@ Linux es un sistema operativo completamente libre y gratuito.
 `c)` ¿Qué es **GNU**?\
 GNU es un sistema operativo de software libre
 
-`d)` Indique una breve historia sobre la evolución del proyecto *GNU*\
+`d)` Indique una breve historia sobre la evolución del proyecto *GNU*
 - El proyecto GNU fue iniciado por Richard M. Stallman con el propósito de crear un sistema operativo completo y libre: el sistema GNU.
 - Se baso principalmente en 4 libertades
     - **Libertad 1:** la libertad para ejecutar el programa con cualquier fin.
