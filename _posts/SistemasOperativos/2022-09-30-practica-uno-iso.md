@@ -1,11 +1,9 @@
 ---
 layout: post
 title: 📒 Practica 1
-thumbnail-img: /assets/img/iso.png
 tags: [iso, sistemas operativos, practica 1, linux]
 ---
 
-# 📒 Practica 1
 
 El objetivo de esta práctica es que el alumno se familiarice con los conceptos básicos del sistema
 operativo GNU/Linux, así como con su entorno y comandos principales.

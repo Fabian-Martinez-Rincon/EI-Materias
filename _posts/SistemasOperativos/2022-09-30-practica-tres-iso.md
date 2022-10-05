@@ -1,11 +1,12 @@
 ---
 layout: post
 title: 📚 Practica 3
-thumbnail-img: /assets/img/iso.png
 tags: [iso, sistemas operativos, practica 3, shell, linux]
 ---
 
-# 📚 Practica 3
+**Objetivo**
+
+El objetivo de esta práctica es que el alumno desarrolle habilidades concernientes a Shell Scripting
 
 - [1) ¿Qué es el Shell Scripting? ¿A qué tipos de tareas están orientados los script?](#1-ejercicio)
 - [2) Investigar la funcionalidad de los comandos echo y read](#2-ejercicio)

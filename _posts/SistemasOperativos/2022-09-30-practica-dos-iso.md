@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 📓 Practica 2
-thumbnail-img: /assets/img/iso.png
 tags: [iso, sistemas operativos, practica 2, linux]
 ---
-
-# 📓 Practica 2
 
 El objetivo de esta práctica es que el alumno comprenda los aspectos principales acerca de la estructura del sistema Operativo GNU/Linux en lo que respecta a procesos, usuarios, filesystems,
 permisos, etc
