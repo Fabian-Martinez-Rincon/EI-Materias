@@ -8,6 +8,7 @@ tags: [iso, sistemas operativos, practica 1, linux]
 
 El objetivo de esta práctica es que el alumno se familiarice con los conceptos básicos del sistema
 operativo GNU/Linux, así como con su entorno y comandos principales.
+
 - [Preguntas/Dudas]()
 - [1) Características de GNU/Linux](#1-características-de-gnulinux)
 - [2) Distribuciones de GNU/Linux](#2-distribuciones-de-gnulinux)
