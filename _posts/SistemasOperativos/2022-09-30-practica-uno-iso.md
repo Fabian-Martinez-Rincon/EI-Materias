@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 📒 Practica 1
+thumbnail-img: /assets/img/iso.png
 tags: [iso, sistemas operativos, practica 1, linux]
 ---
 
