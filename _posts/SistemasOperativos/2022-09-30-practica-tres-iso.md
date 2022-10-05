@@ -245,8 +245,7 @@ La suma de los elementos de la posición 4 de los vectores es 10
 ```
 
 # 25) Ejercicio
-Realice un script que agregue en un arreglo todos los nombres de los usuarios del sistema
-pertenecientes al grupo “users”. Adicionalmente el script puede recibir como parametro:
+Realice un script que agregue en un arreglo todos los nombres de los usuarios del sistema pertenecientes al grupo “users”. Adicionalmente el script puede recibir como parametro:
 
 - **“-b n”**: Retorna el elemento de la posición n del arreglo si el mismo existe. Caso contrario, un mensaje de error.
 - **“-l”:** Devuelve la longitud del arreglo
