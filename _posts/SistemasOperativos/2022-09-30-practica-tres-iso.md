@@ -62,6 +62,10 @@ Investigar la funcionalidad de los comandos echo y read
 - (b) ¿Cómo se declaran y se hace referencia a variables dentro de un script? No necesita declarar una variable. Se creará sólo con asignarle un valor a su referencia. Luego se referencia con el símbolo $
 Ejemplo
 
+- touch ejercicio2.sh
+- vim ejercicio2.sh
+- chmod 111 ejercicio2.sh
+- ./ejercicio2.sh
 
 ```bash
 #!/bin/bash 
@@ -88,9 +92,18 @@ echo "Su directorio actual es:"
 ```
 
 - **(a)** Asignar al archivo creado los permisos necesarios de manera que pueda ejecutarlo
+- `chmod 777 ejercicio3.sh`
 - **(b)** Ejecutar el archivo creado de la siguiente manera: ./mostrar
+- `./ ejercicio3.sh`
+- Pegar el texto de arriba con `Ctrl + shit + v`
+
 - **(c)** ¿Qué resultado visualiza?
-- **(d)** Las backquotes (`) entre el comando whoami ilustran el uso de la sustitución de comandos. ¿Qué significa esto?
+
+![image](https://user-images.githubusercontent.com/55964635/194418756-1b08b119-8916-4f52-9d3a-d29e14328b4f.png)
+
+- **(d)** Las backquotes (`) entre el comando whoami ilustran el uso de la sustitución de comandos. ¿Qué significa esto?\
+Son para poder ejecutar comando cuando se encuentran dentro de un string
+
 - **(e)** Realizar modificaciones al script anteriormente creado de manera de poder mostrar distintos resultados (cuál es su directorio personal, el contenido de un directorio en particular, el espacio libre en disco, etc.). Pida que se introduzcan por teclado (entrada estándar) otros datos.
 
 # 4) Ejercicio
