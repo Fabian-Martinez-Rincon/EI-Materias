@@ -119,6 +119,14 @@ Son para poder ejecutar comando cuando se encuentran dentro de un string
 # 4) Ejercicio
 Parametrización: ¿Cómo se acceden a los parámetros enviados al script al momento de su invocación? ¿Qué información contienen las variables **\$#, \$*, \$?** Y **\$HOME** dentro de un script?
 
+Los cripts pueden recibir argumentos en su invocación.Para accederlos, se utilizan variables especiales.
+- **$0**
+- **$1, $2, $3,..**
+- **$#**
+- **$\***
+- **$?**
+- **$HOME**
+
 
 # 5) Ejercicio
  ¿Cual es la funcionalidad de comando exit? ¿Qué valores recibe como parámetro y cual es su significado?\
