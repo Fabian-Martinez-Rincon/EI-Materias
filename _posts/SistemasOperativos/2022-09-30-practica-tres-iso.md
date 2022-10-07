@@ -120,12 +120,12 @@ Son para poder ejecutar comando cuando se encuentran dentro de un string
 Parametrización: ¿Cómo se acceden a los parámetros enviados al script al momento de su invocación? ¿Qué información contienen las variables **\$#, \$*, \$?** Y **\$HOME** dentro de un script?
 
 Los cripts pueden recibir argumentos en su invocación.Para accederlos, se utilizan variables especiales.
-- **$0**
-- **$1, $2, $3,..**
-- **$#**
-- **$\***
-- **$?**
-- **$HOME**
+- **$0** Contiene el nombre del script
+- **$1, $2, $3,..** Contiene cada uno de los argumentos 
+- **$#** Contiene la cantidad de argumentos recibidos
+- **$\*** Contiene la lista de todos los argumentos separados por espacios.
+- **$?** Contiene el valor del ultimo comando ejecutado
+- **$HOME** Funciona igual, representa /home/usuario
 
 
 # 5) Ejercicio
