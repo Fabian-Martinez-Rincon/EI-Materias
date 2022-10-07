@@ -62,10 +62,10 @@ Investigar la funcionalidad de los comandos echo y read
 - (b) ¿Cómo se declaran y se hace referencia a variables dentro de un script? No necesita declarar una variable. Se creará sólo con asignarle un valor a su referencia. Luego se referencia con el símbolo $
 Ejemplo
 
-- touch ejercicio2.sh
-- vim ejercicio2.sh
-- chmod 111 ejercicio2.sh
-- ./ejercicio2.sh
+- `touch ejercicio2.sh`
+- `vim ejercicio2.sh`
+- `chmod 111 ejercicio2.sh`
+- `./ejercicio2.sh`
 
 ```bash
 #!/bin/bash 
@@ -94,7 +94,7 @@ echo "Su directorio actual es:"
 - **(a)** Asignar al archivo creado los permisos necesarios de manera que pueda ejecutarlo
 - `chmod 777 ejercicio3.sh`
 - **(b)** Ejecutar el archivo creado de la siguiente manera: ./mostrar
-- `./ ejercicio3.sh`
+- `./ejercicio3.sh`
 - Pegar el texto de arriba con `Ctrl + shit + v`
 
 - **(c)** ¿Qué resultado visualiza?
