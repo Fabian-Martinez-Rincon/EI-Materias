@@ -147,6 +147,46 @@ Estructuras de control. Investigue la sintaxis de las siguientes estructuras de 
 - for
 - select
 
+```sh
+
+var1=$1
+var2=10
+
+if [ $var1 -lt $var2 ]; then
+  echo "es menor"
+else
+  echo "es mayor o igual"
+fi
+#______________________________________
+case $var1 in
+  5)
+    echo "El valor es cinco"
+  ;;
+  *)
+  echo "otro dato"
+  ;;
+esac
+#______________________________________
+while [ $var1 -le $var2 ] 
+do
+  echo $var1
+  var1=$((var1+1))
+done
+#______________________________________
+
+for i in $(seq $1 10)
+do
+  echo "imprime cosas $1"
+done
+
+#______________________________________
+
+select brand in Samsung Sony iphone symphony Walton
+do
+echo "You have chosen $brand"
+done
+```
+
 # 9) Ejercicio
 ¿Qué acciones realizan las sentencias break y continue dentro de un bucle? ¿Qué parámetros reciben?
 
