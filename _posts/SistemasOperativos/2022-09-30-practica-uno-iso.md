@@ -511,3 +511,47 @@ Permite al usuario crear particiones en el disco duro de la misma manera que su 
 - `a)`  Indique en qué directorios se almacenan los comandos mencionados en el ejercicio anterior.
 
 Preguntale a dios.
+
+
+```vim
+#!/bin/bash
+
+name=$1
+vector=($(find / -name '.doc'))
+clear
+echo "El vector tiene " ${vector[@]}
+
+function verArchivo(){
+      for i in ${vector[]} 
+      do
+            echo $i "cosaaa " $name "cosaaaaaaaaaaaaaaa"
+            if [[ "${i##*/}" == "$name" ]]; then
+                  cat $i
+                  return 5
+            fi
+      done
+}
+
+cantidad (){
+      echo "El vector tiene " ${#vector[@]}
+}
+
+cantidad
+
+borrarArchivo(){
+      echo "Queres eliminar el archivo logicamente ? S/N"
+      read respuesta
+      verArchivo $1
+      if [ $? -ne 5 ]; then
+            echo "no existe el archivo"
+            exit 
+      fi
+      case respuesta in 
+            "s")
+                  unset ;;
+      esac
+      echo "$respuesta"
+}
+
+borrarArchivo
+```
