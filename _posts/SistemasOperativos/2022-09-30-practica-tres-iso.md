@@ -62,10 +62,12 @@ Investigar la funcionalidad de los comandos echo y read
 - (b) ¿Cómo se declaran y se hace referencia a variables dentro de un script? No necesita declarar una variable. Se creará sólo con asignarle un valor a su referencia. Luego se referencia con el símbolo $
 Ejemplo
 
-- touch ejercicio2.sh
-- vim ejercicio2.sh
-- chmod 111 ejercicio2.sh
-- ./ejercicio2.sh
+```powershell
+touch ejercicio2.sh
+vim ejercicio2.sh
+chmod 111 ejercicio2sh`
+./ejercicio2.sh
+```
 
 ```bash
 #!/bin/bash 
@@ -91,10 +93,18 @@ echo "Su usuario es: `whoami`"
 echo "Su directorio actual es:"
 ```
 
-- **(a)** Asignar al archivo creado los permisos necesarios de manera que pueda ejecutarlo
-- `chmod 777 ejercicio3.sh`
-- **(b)** Ejecutar el archivo creado de la siguiente manera: ./mostrar
-- `./ ejercicio3.sh`
+**(a)** Asignar al archivo creado los permisos necesarios de manera que pueda ejecutarlo
+
+```powershell
+chmod 777 ejercicio3.sh
+```
+
+ **(b)** Ejecutar el archivo creado de la siguiente manera: ./mostrar
+
+```powershell
+./ejercicio3.sh
+```
+
 - Pegar el texto de arriba con `Ctrl + shit + v`
 
 - **(c)** ¿Qué resultado visualiza?
@@ -108,6 +118,14 @@ Son para poder ejecutar comando cuando se encuentran dentro de un string
 
 # 4) Ejercicio
 Parametrización: ¿Cómo se acceden a los parámetros enviados al script al momento de su invocación? ¿Qué información contienen las variables **\$#, \$*, \$?** Y **\$HOME** dentro de un script?
+
+Los cripts pueden recibir argumentos en su invocación.Para accederlos, se utilizan variables especiales.
+- **$0** Contiene el nombre del script
+- **$1, $2, $3,..** Contiene cada uno de los argumentos 
+- **$#** Contiene la cantidad de argumentos recibidos
+- **$\*** Contiene la lista de todos los argumentos separados por espacios.
+- **$?** Contiene el valor del ultimo comando ejecutado
+- **$HOME** Funciona igual, representa /home/usuario
 
 
 # 5) Ejercicio
@@ -128,6 +146,46 @@ Estructuras de control. Investigue la sintaxis de las siguientes estructuras de 
 - while
 - for
 - select
+
+```sh
+
+var1=$1
+var2=10
+
+if [ $var1 -lt $var2 ]; then
+  echo "es menor"
+else
+  echo "es mayor o igual"
+fi
+#______________________________________
+case $var1 in
+  5)
+    echo "El valor es cinco"
+  ;;
+  *)
+  echo "otro dato"
+  ;;
+esac
+#______________________________________
+while [ $var1 -le $var2 ] 
+do
+  echo $var1
+  var1=$((var1+1))
+done
+#______________________________________
+
+for i in $(seq $1 10)
+do
+  echo "imprime cosas $1"
+done
+
+#______________________________________
+
+select brand in Samsung Sony iphone symphony Walton
+do
+echo "You have chosen $brand"
+done
+```
 
 # 9) Ejercicio
 ¿Qué acciones realizan las sentencias break y continue dentro de un bucle? ¿Qué parámetros reciben?
