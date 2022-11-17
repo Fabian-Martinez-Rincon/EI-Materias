@@ -46,9 +46,9 @@ Responda en forma sintética sobre los siguientes conceptos:
 - `(d)` ¿Qué es el Quantum?
 - `(e)` ¿Qué significa que un algoritmo de scheduling sea apropiativo o no apropiativo (Preemptive o Non-Preemptive)?
 - `(f)` ¿Qué tareas realizan?:
-    - i. Short Term Scheduler
-    - ii. Long Term Scheduler
-    - iii. Medium Term Scheduler
+    - `i.` Short Term Scheduler
+    - `ii.` Long Term Scheduler
+    - `iii.` Medium Term Scheduler
 - `(g)` ¿Qué tareas realiza el Dispatcher?
 
 ### `Ejercicio 2)`
@@ -65,9 +65,62 @@ algún comando no venga por defecto en su distribución por lo que deberá insta
     - `viii`. **renice**
     - `ix`. **xkill**
     - `x`. **atop**
-(b) Observe detenidamente el siguiente código. Intente entender lo que hace sin necesidad
+
+- `(b)` Observe detenidamente el siguiente código. Intente entender lo que hace sin necesidad
 de ejecutarlo.
 
+```c
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+int main(void) {
+    int c;
+    pid_t pid;
+    printf(" Comienzo. : \n " );
+    for (c=0;c<3;c++){
+        pid = fork();
+    }
+    printf( "Proceso \n ");
+    return 0;
+}
+```
+- `i.` ¿Cuántas líneas con la palabra `Proces` aparecen al final de la ejecución de este programa?.
+- `ii.` ¿El número de líneas es el número de procesos que han estado en ejecución?. Ejecute el programa y compruebe si su respuesta es correcta, Modifique el valor del bucle for y compruebe los nuevos resultados.
+- `(c)` Vamos a tomar una variante del programa anterior. Ahora, además de un mensaje,
+vamos a añadir una variable y, al final del programa vamos a mostrar su valor. El
+nuevo código del programa se muestra a continuación
+
+```c
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+int main( void ) {
+    int c ;
+    int p=0;
+    pid_t pid ;
+    for( c = 0; c<3 ;c++){
+        pid = fork() ;
+    }
+    p++;
+    printf( "Proceso %d\n ", p) ;
+    return 0;
+}
+```
+
+- `i.` ¿Qué valores se muestran por consola?.
+- `ii.` ¿Todas las líneas tendrán el mismo valor o algunas líneas tendrán valores distintos?.
+- `iii.` ¿Cuál es el valor (o valores) que aparece?. Ejecute el programa y compruebe si su respuesta es correcta, Modifique el valor del bucle for y el lugar dónde se incrementa la variable p y compruebe los nuevos resultados.
+
+- `(d)` Comunicación entre procesos:
+    - `i.` Investigue la forma de comunicación entre procesos a través de pipes.
+    - `ii.` ¿Cómo se crea un pipe en C?.
+    - `iii.` ¿Qué parametro es necesario para la creación de un pipe?. Explique para que se utiliza.
+    - `iv.` ¿Qué tipo de comunicación es posible con pipes?
+- `(e)` ¿Cuál es la información mínima que el SO debe tener sobre un proceso?¿En que estructura de datos asociada almacena dicha información? 
+- `(f)` ¿Qué significa que un proceso sea “CPU Bound” y “I/O Bound”?
+- `(g)` ¿Cuáles son los estados posibles por los que puede atravesar un proceso?
+- `(h)` Explique mediante un diagrama las posibles transiciones entre los estados.
+- `(i)` ¿Que scheduler de los mencionados en 1 f se encarga de las transiciones?
 
 ### `Ejercicio 3)`
 ### `Ejercicio 4)`
