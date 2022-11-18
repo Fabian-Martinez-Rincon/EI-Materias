@@ -118,6 +118,17 @@ nuevo código del programa se muestra a continuación
 - `(i)` ¿Que scheduler de los mencionados en 1 f se encarga de las transiciones?
 
 ### `Ejercicio 3)`
+
+Para los siguientes algoritmos de scheduling:
+- FCFS (Fisrt Coome First Served)
+- SJF (Shortest Job First)
+- Round Robin
+- Prioridades
+- `(a)` Explique su funcionamiento mediante un ejemplo.
+- `(b)` ¿Alguno de ellos requiere algún parámetro para su funcionamiento?
+- `(c)` Cual es el mas adecuado según los tipos de procesos y/o SO.
+- `(d)` Cite ventajas y desventajas de su uso.
+
 ### `Ejercicio 4)`
 ### `Ejercicio 5)`
 ### `Ejercicio 6)`
