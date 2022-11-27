@@ -11,10 +11,8 @@ tags: [DBD, Base de datos, logico, fisico]
 # ``Conceptual``
 
 #### Enunciado
-Diseño de Bases De Datos- Examen práctico- Primer Fecha- Tema 1- 8/11/2022
-
-Importante: Consignar en primer hoja: nombre, apellido, legajo, tema de examen, turno de práctica, temas rendidos y cantidad de hojas entregadas, En restantes hojas poner legajo y nro hoja/total hojas
-
+Diseño de Bases De Datos- Examen práctico- Primer Fecha- Tema 1- 8/11/2022\
+Importante: Consignar en primer hoja: nombre, apellido, legajo, tema de examen, turno de práctica, temas rendidos y cantidad de hojas entregadas, En restantes hojas poner legajo y nro hoja/total hojas\
 ¿Modelado conceptual - (Tema 1)
 
 Se debe modelar mediante modelo conceptual la información necesaria para un sistema encargado
