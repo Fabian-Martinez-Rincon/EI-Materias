@@ -138,13 +138,11 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 <details open>
 <summary>Shopping list</summary>
 
-* Vegetables
-* Fruits
-* Fish
+![1](https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg)
 
 </details>
 
-![1](https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg)
+
 
 
 ## Parcial
