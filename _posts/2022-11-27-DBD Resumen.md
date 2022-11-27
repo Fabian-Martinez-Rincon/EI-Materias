@@ -7,4 +7,14 @@ share-img: /assets/img/portadaObjetos.jpg
 tags: [sql, visual studio, sql server]
 ---
 
-Bueeeenooo
+
+
+## Algebra
+- [Insertar](#insertar)
+- [Eliminar](#eliminar)
+- [Actualizar](#actualizar)
+
+### Insertar
+### Eliminar
+### Actualizar
+
