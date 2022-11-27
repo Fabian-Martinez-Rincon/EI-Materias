@@ -112,7 +112,14 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 # Logico-Fisico
 
+### Resumen Fisico
+
+![1](https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg)
+
+
+## Parcial
 ![image](https://user-images.githubusercontent.com/55964635/204159760-6a40c834-60c0-4443-8681-6c90018fcf82.png)
+
 
 ## Sql
 - [Insertar](#insertar)
