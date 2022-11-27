@@ -110,9 +110,21 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 ![3](https://user-images.githubusercontent.com/55964635/204157808-2491b5e1-bade-4d07-b87b-9817a4fe1f8a.jpg)
 
 
-# ``Logico-Fisico``
+# ``Logico``
 
-### Resumen Fisico
+![2](https://user-images.githubusercontent.com/55964635/204161659-ddb30a8f-2579-4fba-81cc-10a8d4db0ad6.jpg)
+
+
+# ``Fisico``
+
+### Entidades
+
+- Los atributos son siempre propios
+- (0, 1) Solo subrayas el id propio
+- (1, 1) -
+    - (0, 1) Forkeas el identificador y subrayas el id propio
+    - (1, 1) Lo de arriba pero se puede hacer de uno de los dos lados
+    - (1, n)
 
 ![1](https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg)
 
