@@ -8,7 +8,7 @@ tags: [DBD, Base de datos, logico, fisico]
 ---
 
 
-# ``Conceptual``
+## ``Conceptual``
 
 #### Enunciado
 Diseño de Bases De Datos- Examen práctico- Primer Fecha- Tema 1- 8/11/2022\
@@ -106,25 +106,25 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - mail
 
 <details>
-<summary>Resultado completo</summary>
+<summary>📚 Resultado completo</summary>
 
 <img src="https://user-images.githubusercontent.com/55964635/204157808-2491b5e1-bade-4d07-b87b-9817a4fe1f8a.jpg">
 
 </details>
 
 
-# ``Logico|Fisico``
+## ``Logico|Fisico``
 
 
 <details>
-<summary>Resumen Logico</summary>
+<summary>📚 Resumen Logico</summary>
 
 <img src="https://user-images.githubusercontent.com/55964635/204161659-ddb30a8f-2579-4fba-81cc-10a8d4db0ad6.jpg">
 
 </details>
 
 <details>
-<summary>Resumen Fisico</summary>
+<summary>📚 Resumen Fisico</summary>
 
 <img src="https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg">
 
@@ -153,7 +153,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 
 
-## Parcial
+### Parcial
 ![image](https://user-images.githubusercontent.com/55964635/204159760-6a40c834-60c0-4443-8681-6c90018fcf82.png)
 
 
