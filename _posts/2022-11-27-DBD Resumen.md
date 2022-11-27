@@ -8,7 +8,7 @@ tags: [sql, visual studio, sql server]
 ---
 
 
-### Conceptual
+# Conceptual
 
 #### Enunciado
 Diseño de Bases De Datos- Examen práctico- Primer Fecha- Tema 1- 8/11/2022
@@ -109,15 +109,17 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 ![3](https://user-images.githubusercontent.com/55964635/204157808-2491b5e1-bade-4d07-b87b-9817a4fe1f8a.jpg)
 
+
+# Logico-Fisico
+
+![image](https://user-images.githubusercontent.com/55964635/204159760-6a40c834-60c0-4443-8681-6c90018fcf82.png)
+
 ## Sql
 - [Insertar](#insertar)
 - [Eliminar](#eliminar)
 - [Actualizar](#actualizar)
 
 ### Insertar
-
- 
-
 ### Eliminar
 ### Actualizar
 
