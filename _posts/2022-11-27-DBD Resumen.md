@@ -55,11 +55,13 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - (0,n) teléfonos
     - 1,n \<trabaja> empleados
     - 1,n \<tiene> productos 
-- **Empleado**
-    - D.N.I (Identificador)
-    - Apellidos
+- **Persona**
+    - D.N.I 
+    - apellidos
     - nombres
-    - C.U.LT (Identificador)
+    - C.U.I.T
+- **Cliente**
+- **Empleado** 
     - +repositor
         - edad
     - +vendedor
@@ -93,7 +95,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - código único de comprá
     - fecha
     - \<compro> productos involucrados
-        - Fecha
+        - Precio Compra
     - precio total
     - (1, 1) <tiene> proveedor
 - **proveedor** 
@@ -104,14 +106,9 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - dirección detallada
     - teléfono 
     - mail
-- **Cliente**
-    - D.N.I 
-    - apellidos
-    - nombres
-    - C.U.1,T
-    - (gerarquia con persona) Los empleados de la papelera pueden ser clientes.
 
-- 
+![3](https://user-images.githubusercontent.com/55964635/204157808-2491b5e1-bade-4d07-b87b-9817a4fe1f8a.jpg)
+
 ## Sql
 - [Insertar](#insertar)
 - [Eliminar](#eliminar)
