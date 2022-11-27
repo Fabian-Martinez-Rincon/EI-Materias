@@ -7,7 +7,7 @@ share-img: /assets/img/portadaObjetos.jpg
 tags: [sql, visual studio, sql server]
 ---
 
-
+Resumen total de base de datos, supongo que con esto tenes que aprobar :|
 
 ## Algebra
 - [Insertar](#insertar)
