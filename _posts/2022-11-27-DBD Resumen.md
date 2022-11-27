@@ -107,15 +107,30 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - teléfono 
     - mail
 
-![3](https://user-images.githubusercontent.com/55964635/204157808-2491b5e1-bade-4d07-b87b-9817a4fe1f8a.jpg)
+<details>
+<summary>Resultado completo</summary>
+
+<img src="https://user-images.githubusercontent.com/55964635/204157808-2491b5e1-bade-4d07-b87b-9817a4fe1f8a.jpg">
+
+</details>
 
 
-# ``Logico``
-
-![2](https://user-images.githubusercontent.com/55964635/204161659-ddb30a8f-2579-4fba-81cc-10a8d4db0ad6.jpg)
+# ``Logico|Fisico``
 
 
-# ``Fisico``
+<details>
+<summary>Resumen Logico</summary>
+
+<img src="https://user-images.githubusercontent.com/55964635/204161659-ddb30a8f-2579-4fba-81cc-10a8d4db0ad6.jpg">
+
+</details>
+
+<details>
+<summary>Resumen Fisico</summary>
+
+<img src="https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg">
+
+</details>
 
 ### Entidades
 
@@ -135,12 +150,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - (0, n) Junto los dos identificadores y subrayo el id del lado del (0, 1)
 - (0, n), (0, 1) Junto los dos identificadores y los subrayo los dos
 
-<details >
-<summary>Tabla de Resumen</summary>
 
-<img src="https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg">
-
-</details>
 
 
 
