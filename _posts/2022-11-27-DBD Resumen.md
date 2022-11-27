@@ -40,12 +40,12 @@ futuro se consulte a cuánto se vendió un determinado producto en una venta det
 
 En cambio, para las compras se debe almacenar código único de comprá, fecha, productos
 involucrados, precio total y proveedor. Tenga en cuenta que es posible que en un futuro se consulte
-a cuánto se compró un determinado producto en una compra X. De cada proveedor se conoce: razón social, C.U.I.T, posición frente a la afip, nombre de fantasía (puede no tener), dirección
+a cuánto se compró un determinado producto en una compra X. 
+De cada proveedor se conoce: razón social, C.U.I.T, posición frente a la afip, nombre de fantasía (puede no tener), dirección
 detallada, teléfono y mail.
 
 
-Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los empleados de la
-papelera pueden ser clientes.
+Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los empleados de la papelera pueden ser clientes.
 
 ---
 
@@ -78,17 +78,40 @@ papelera pueden ser clientes.
     - stock mínimo
     - descripción
     - ubicación.
-- Venta
+- **Venta**
     - nro ticket fiscal (Identificador)
     - precio total de la venta
     - fecha de la venta
     - <tiene> 1,n productos comprados
     - <tiene> 1,1 vendedor que realizó la venta
+        - Fecha
     - <tiene> 1,1 cliente involucrado 
     - descripción forma de pago
-    - Si la venta es con tarjeta de crédito es necesario además, guardar la cantidad de
-¡cuotas en que se realiza el pago y el interés aplicado. Tenga en cuenta que es posible que en un futuro se consulte a cuánto se vendió un determinado producto en una venta determinada.
+    - (0, 1) cantidad de cuotas
+    - (0, 1) interés aplicado
+- **Compra**
+    - código único de comprá
+    - fecha
+    - \<compro> productos involucrados
+        - Fecha
+    - precio total
+    - (1, 1) <tiene> proveedor
+- **proveedor** 
+    - razón social (identificador)
+    - C.U.I.T (identificador)
+    - posición frente a la afip
+    - (0, 1) nombre de fantasía (puede no tener)
+    - dirección detallada
+    - teléfono 
+    - mail
+- **Cliente**
+    - D.N.I 
+    - apellidos
+    - nombres
+    - C.U.1,T
+    - (gerarquia con persona) Los empleados de la papelera pueden ser clientes.
 
+- 
 ## Sql
 - [Insertar](#insertar)
 - [Eliminar](#eliminar)
