@@ -129,8 +129,20 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 ### Relaciones
 
+- Se generan cuando hay (0, 1) o (0, n) de cualquier lado
+- (0, 1)
+    - (0, 1) Junto los dos identificadores y subrayo cualquiera de los dos
+    - (0, n) Junto los dos identificadores y subrayo el id del lado del (0, 1)
+- (0, n), (0, 1) Junto los dos identificadores y los subrayo los dos
 
+<details open>
+<summary>Shopping list</summary>
 
+* Vegetables
+* Fruits
+* Fish
+
+</details>
 
 ![1](https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg)
 
