@@ -237,13 +237,16 @@ Tramos y posee tiene relacion (1, 1)
 ### Algebra Relacional
 
 Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tablas tengan una 
-- **Selección**
-    ```σ nombre = 'Carlos' (Persona) ```
-- **Proyección**
+- **Selección** (Filtra Tuplas dependiendo del condicional)
+    ```
+    σ nombre = 'Carlos' (Persona)
+     ```
+- **Proyección** (Filtra columnas)
     ```
     π nombre (Persona)
     ```
-- **Unión:**
+- **Unión** (La union de toda la vida)
+    Tabla1 ∪ Tabla2
 - **Intersección:**
 - **Producto Cartesiano:**
 - **Producto Natural:**
