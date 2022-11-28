@@ -67,70 +67,104 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 </details>
 
-#### Resolución
-
-- **Punto de venta**
-    - número unico (Identificador)
-    - dirección detallada
-    - (0,n) teléfonos
-    - 1,n \<trabaja> empleados
-    - 1,n \<tiene> productos 
-- **Persona**
-    - D.N.I 
-    - apellidos
-    - nombres
-    - C.U.I.T
-- **Cliente**
-- **Empleado** 
-    - +repositor
-        - edad
-    - +vendedor
-        - (0,n) titulos
-    - +administrativo
-        - nroPasaporte
-    - \<trabaja> 1,1 punto de venta
-- **\<trabaja>**
-    - FechaInicio
-    - (0,1) FechaFin
-- **Producto**
-    - precio actual
-    - precio de compra
-    - código de producto (puede repetirse para diferentes puntos de ventas pero no en el mismo punto de venta) \<idExterno>
-    - stock actual 
-    - stock mínimo
-    - descripción
-    - ubicación.
-- **Venta**
-    - nro ticket fiscal (Identificador)
-    - precio total de la venta
-    - fecha de la venta
-    - <tiene> 1,n productos comprados
-    - <tiene> 1,1 vendedor que realizó la venta
-        - Fecha
-    - <tiene> 1,1 cliente involucrado 
-    - descripción forma de pago
-    - (0, 1) cantidad de cuotas
-    - (0, 1) interés aplicado
-- **Compra**
-    - código único de comprá
-    - fecha
-    - \<compro> productos involucrados
-        - Precio Compra
-    - precio total
-    - (1, 1) <tiene> proveedor
-- **proveedor** 
-    - razón social (identificador)
-    - C.U.I.T (identificador)
-    - posición frente a la afip
-    - (0, 1) nombre de fantasía (puede no tener)
-    - dirección detallada
-    - teléfono 
-    - mail
-
-
-
-
 ### Parcial Conceptual
+
+<details >
+<summary>📚 Contexto Resuelto</summary>
+<br>
+
+
+
+<ul>
+<li><strong>Punto de venta</strong><ul>
+<li>número unico (Identificador)</li>
+<li>dirección detallada</li>
+<li>(0,n) teléfonos</li>
+<li>1,n <\trabaja> empleados</li>
+<li>1,n <\tiene> productos </li>
+</ul>
+</li>
+<li><strong>Persona</strong><ul>
+<li>D.N.I </li>
+<li>apellidos</li>
+<li>nombres</li>
+<li>C.U.I.T</li>
+</ul>
+</li>
+<li><strong>Cliente</strong></li>
+<li><strong>Empleado</strong> <ul>
+<li>+repositor<ul>
+<li>edad</li>
+</ul>
+</li>
+<li>+vendedor<ul>
+<li>(0,n) titulos</li>
+</ul>
+</li>
+<li>+administrativo<ul>
+<li>nroPasaporte</li>
+</ul>
+</li>
+<li><\trabaja> 1,1 punto de venta</li>
+</ul>
+</li>
+<li><strong><\trabaja></strong><ul>
+<li>FechaInicio</li>
+<li>(0,1) FechaFin</li>
+</ul>
+</li>
+<li><strong>Producto</strong><ul>
+<li>precio actual</li>
+<li>precio de compra</li>
+<li>código de producto (puede repetirse para diferentes puntos de ventas pero no en el mismo punto de venta) <\idExterno></li>
+<li>stock actual </li>
+<li>stock mínimo</li>
+<li>descripción</li>
+<li>ubicación.</li>
+</ul>
+</li>
+<li><strong>Venta</strong><ul>
+<li>nro ticket fiscal (Identificador)</li>
+<li>precio total de la venta</li>
+<li>fecha de la venta</li>
+<li><tiene> 1,n productos comprados</li>
+<li><tiene> 1,1 vendedor que realizó la venta<ul>
+<li>Fecha</li>
+</ul>
+</li>
+<li><tiene> 1,1 cliente involucrado </li>
+<li>descripción forma de pago</li>
+<li>(0, 1) cantidad de cuotas</li>
+<li>(0, 1) interés aplicado</li>
+</ul>
+</li>
+<li><strong>Compra</strong><ul>
+<li>código único de comprá</li>
+<li>fecha</li>
+<li><\compro> productos involucrados<ul>
+<li>Precio Compra</li>
+</ul>
+</li>
+<li>precio total</li>
+<li>(1, 1) <tiene> proveedor</li>
+</ul>
+</li>
+<li><strong>proveedor</strong> <ul>
+<li>razón social (identificador)</li>
+<li>C.U.I.T (identificador)</li>
+<li>posición frente a la afip</li>
+<li>(0, 1) nombre de fantasía (puede no tener)</li>
+<li>dirección detallada</li>
+<li>teléfono </li>
+<li>mail</li>
+</ul>
+</li>
+</ul>
+
+
+</details>
+
+
 
 <details open>
 <summary>📚 Parcial Resuelto</summary>
