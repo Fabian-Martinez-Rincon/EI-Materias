@@ -286,10 +286,12 @@ ISBN(FK) y Nro_Ejemplar son foraneas de copia
     ```SQL
     Select s.Apellido, Nombre
     from SOCIO s
-    WHERE (s.Fecha_ingreso BETWEEN 01/9/2022 and 30/09/2022)
+    WHERE (s.Fecha_ingreso BETWEEN "01-9-2022" and "30-09-2022")
     ORDER BY s.Apellido, s.Nombre
     ```
 - `3)` Listar el nombre, apellido, fecha de Nacimiento y cantidad de prestamos de aquellos socias que hayan solicitado más de 5 prestamos. Dicho listado deberá estar ordenado por Apellido.
+```SQL
+```
 - `4)` Listar el DNI, apellido, y nombre de aquellos socios que no tengan préstamos de libros editados por la editorial "Gran Editorial". Dicho listado deberá estar ordenado por Apellido y Nombre
 - `5)` Mostrar que cantidad de socios tienen actualmente libros prestados cuyo estado sea "Bueno"
 - `6)` Listar el titulo, genero, denominación de la editorial y año de edición de aquellos libros editados entre los años 1980 y 2015.
