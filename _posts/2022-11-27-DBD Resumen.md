@@ -134,9 +134,11 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 </details>
 
 
+### Logico
 
+- Solo en (T,E) se puede dejar solo a los hijos, en el resto se puede realizar cualquier opearción.
 
-### Entidades
+### Fisico Entidades
 
 - Los atributos son siempre propios
 - (0, 1) Solo subrayas el id propio (no importa el caso)
@@ -146,7 +148,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - (1, n) Forkeas el identificador y subrayas el id propio
 - (0, n) - Solo subrayas el id propio (no importa el caso)
 
-### Relaciones
+### Fisico Relaciones
 
 - Se generan cuando hay (0, 1) o (0, n) de cualquier lado
 - (0, 1)
@@ -155,13 +157,10 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 - (0, n), (0, 1) Junto los dos identificadores y los subrayo los dos
 
 
-
-
-
-
 ### Parcial
 ![image](https://user-images.githubusercontent.com/55964635/204159760-6a40c834-60c0-4443-8681-6c90018fcf82.png)
 
+![ParcialLogico](https://user-images.githubusercontent.com/55964635/204168183-726bc9ab-398e-47c4-9297-472f1322fd67.png)
 
 ## Sql
 - [Insertar](#insertar)
