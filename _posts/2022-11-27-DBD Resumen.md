@@ -7,6 +7,10 @@ share-img: /assets/img/portadaObjetos.jpg
 tags: [DBD, Base de datos, logico, fisico]
 ---
 
+### ``Indice``
+- [Conceptual](#conceptual)
+- [Logico-Fisico](#logicofisico)
+- [Algebra Relacional y Sql]()
 
 ## ``Conceptual``
 
@@ -132,7 +136,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 
 
-
+---
 
 ## ``Logico|Fisico``
 
@@ -209,6 +213,9 @@ Tramos y posee tiene relacion (1, 1)
 - **Tiene** = (`nro, dni`)
 - **Tiene2** = (`mail, dni`)
 
+---
+
+## `Algebra y Sql`
 ## Sql
 - [Insertar](#insertar)
 - [Eliminar](#eliminar)
