@@ -321,5 +321,21 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
 
 ISBN(FK) y Nro_Ejemplar son foraneas de copia
 
+- `1)` Listar el titulo, género (el Nombre del Género) y descripción de aquellos libros editados por la editorial "Nueva Editorial". Dicho listado deberá estar ordenado por titulo.
+- `2)` Listar el apellido y nombre de aquellos socios cuya fecha de ingreso esté entre el 01/9/2022 y el 30/09/2022. Dicho listado debera estar ordenado por apellido y nombre
+- `3)` Listar el nombre, apellido, fecha de Nacimiento y cantidad de prestamos de aquellos socias que hayan solicitado más de 5 prestamos. Dicho listado deberá estar ordenado por Apellido.
+- `4)` Listar el DNI, apellido, y nombre de aquellos socios que no tengan préstamos de libros editados por la editorial "Gran Editorial". Dicho listado deberá estar ordenado por Apellido y Nombre
+- `5)` Mostrar que cantidad de socios tienen actualmente libros prestados cuyo estado sea "Bueno"
+- `6)` Listar el titulo, genero, denominación de la editorial y año de edición de aquellos libros editados entre los años 1980 y 2015.
+- `7)` Agregar un nuevo socio con el nro_socio, DNI, Apellido, Nombre y Fecha de nacimiento que prefiera.
+- `8)` Modificar el titulo del libro cuyo ISBN es 2152-2020 por el titulo "El Código X"
+
+#### Algebra Relacional
+
+Punto 1
+```
+
+```
+
 ## Links
 - [Algunas operaciones de Algebra Relacional](https://gist.github.com/miporto/01d443e83269c555baa435cf48eaaf76)
