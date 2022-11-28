@@ -218,19 +218,42 @@ Tramos y posee tiene relacion (1, 1)
 ## `Algebra y Sql`
 
 <details >
-<summary>📚 Algebra Relacional</summary>
+<summary>📚 Resumen Algebra Relacional</summary>
 <br>
 <img src='https://user-images.githubusercontent.com/55964635/204201478-8f69348e-87ea-4c50-a6a9-323af90dc08b.png'>
 <img src='https://user-images.githubusercontent.com/55964635/204202217-4b6f9917-8ca6-4b70-b64d-78295046daa1.png'>
 <br>
 </details>
 
+
 <details >
-<summary>📚 Sql</summary>
+<summary>📚 Resumen Sql</summary>
 <br>
 <img src='https://user-images.githubusercontent.com/55964635/204203457-d6ec9a2b-3ac3-4514-be92-c1ab14d6449a.png'>
 <img src='https://user-images.githubusercontent.com/55964635/204204108-3b8ae2dd-d7a7-4049-a7fa-252fcc873c66.png'>
 <br>
 </details>
+
+### Algebra Relacional
+
+- **Selección**
+    ```
+    σ nombre = 'Carlos' (Persona) 
+    ```
+- **Proyección**
+    ```
+    π nombre (Persona)
+    ```
+- **Unión:**
+- **Intersección:**
+- **Producto Cartesiano:**
+- **Producto Natural:**
+- **Diferencia:**
+- **División:**
+- **Renombre:**
+- **Asignación:**
+- **Insertar:**
+- **Eliminar:**
+- **Actualizar:**
 
 
