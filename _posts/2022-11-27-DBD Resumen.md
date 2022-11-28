@@ -14,6 +14,7 @@ tags: [DBD, Base de datos, logico, fisico]
     - [Parcial Logico](#parcial-logico)
     - [Parcial Fisico](#parcial-fisico)
 - [Algebra Relacional y Sql](#algebra-y-sql)
+    - [Parcial Algebra y Sql](#parcial-algebra-y-sql)
 
 ## ``Conceptual``
 
@@ -156,6 +157,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 <summary>📚 Resumen Fisico</summary>
 <br>
 <img src='https://user-images.githubusercontent.com/55964635/204166839-63012958-7bed-4e3e-831e-82af542665a5.png'>
+<br>
 
 </details>
 
@@ -174,6 +176,8 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - (1, n) Forkeas el identificador y subrayas el id propio
 - (0, n) - Solo subrayas el id propio (no importa el caso)
 
+
+
 ### Fisico Relaciones
 Cuando hablamos de (0, n), hablamos de las dos formas (0, n) y (1, n)
 
@@ -181,7 +185,7 @@ Cuando hablamos de (0, n), hablamos de las dos formas (0, n) y (1, n)
 - (0, 1)
     - (0, 1) Junto los dos identificadores y subrayo cualquiera de los dos
     - (0, n) Junto los dos identificadores y subrayo el id del lado del (0, 1)
-- (0, n), (0, n) Junto los dos identificadores y los subrayo los dos
+- (0, n), (0, n) Junto los dos identificadores y los subrayo los dos (dependiendo del dominio, puedo subrayar el atributo de la relación o no como en el caso del historial)
 
 
 ### Parcial
