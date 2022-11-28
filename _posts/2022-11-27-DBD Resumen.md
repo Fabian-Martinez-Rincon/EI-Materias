@@ -121,10 +121,14 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 
 
-![Conceptual](https://user-images.githubusercontent.com/55964635/204165975-87cae88d-72ad-41c2-a329-783bca8e5476.png)
 
 
+<details open>
+<summary>📚 Parcial Resuelto</summary>
+<br>
+<img src='https://user-images.githubusercontent.com/55964635/204165975-87cae88d-72ad-41c2-a329-783bca8e5476.png'>
 
+</details>
 
 
 
@@ -135,14 +139,14 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 <details >
 <summary>📚 Resumen Logico</summary>
-
+<br>
 <img src='https://user-images.githubusercontent.com/55964635/204165940-e363b9a8-f672-4606-b046-3dcb4f1e734c.png'>
 
 </details>
 
 <details >
 <summary>📚 Resumen Logico</summary>
-
+<br>
 <img src='https://user-images.githubusercontent.com/55964635/204166839-63012958-7bed-4e3e-831e-82af542665a5.png'>
 
 </details>
@@ -175,14 +179,15 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 <details >
 <summary>📚 Enunciado</summary>
+<br>
 
 <img src='https://user-images.githubusercontent.com/55964635/204159760-6a40c834-60c0-4443-8681-6c90018fcf82.png'>
 
 </details>
 
-<details >
+<details open>
 <summary>📚 Parcial Resuelto</summary>
-
+<br>
 <img src='https://user-images.githubusercontent.com/55964635/204168183-726bc9ab-398e-47c4-9297-472f1322fd67.png'>
 
 </details>
