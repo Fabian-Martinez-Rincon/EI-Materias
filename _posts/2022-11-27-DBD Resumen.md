@@ -118,25 +118,33 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 ## ``Logico|Fisico``
 
-#### 📚 Resumen Logico
 
-![Fisico](https://user-images.githubusercontent.com/55964635/204165940-e363b9a8-f672-4606-b046-3dcb4f1e734c.png)
+<details >
+<summary>📚 Resumen Logico</summary>
+
+<img src='https://user-images.githubusercontent.com/55964635/204165940-e363b9a8-f672-4606-b046-3dcb4f1e734c.png'>
+
+</details>
+
+<details >
+<summary>📚 Resumen Logico</summary>
+
+<img src='https://user-images.githubusercontent.com/55964635/204166839-63012958-7bed-4e3e-831e-82af542665a5.png'>
+
+</details>
 
 
-#### 📚 Resumen Fisico
-
-![image (3)](https://user-images.githubusercontent.com/55964635/204166839-63012958-7bed-4e3e-831e-82af542665a5.png)
 
 
 ### Entidades
 
 - Los atributos son siempre propios
-- (0, 1) Solo subrayas el id propio
+- (0, 1) Solo subrayas el id propio (no importa el caso)
 - (1, 1)
     - (0, 1) Forkeas el identificador y subrayas el id propio
     - (1, 1) Lo de arriba pero se puede hacer para uno de los dos lados
     - (1, n) Forkeas el identificador y subrayas el id propio
-- (0, n) - Solo subrayas el id propio
+- (0, n) - Solo subrayas el id propio (no importa el caso)
 
 ### Relaciones
 
