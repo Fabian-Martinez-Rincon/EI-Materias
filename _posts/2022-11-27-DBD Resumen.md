@@ -229,7 +229,8 @@ Tramos y posee tiene relacion (1, 1)
 <summary>📚 Sql</summary>
 <br>
 <img src='https://user-images.githubusercontent.com/55964635/204203457-d6ec9a2b-3ac3-4514-be92-c1ab14d6449a.png'>
-
+<img src='https://user-images.githubusercontent.com/55964635/204204108-3b8ae2dd-d7a7-4049-a7fa-252fcc873c66.png'>
+<br>
 </details>
 
 
