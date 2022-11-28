@@ -167,12 +167,13 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 - (0, n) - Solo subrayas el id propio (no importa el caso)
 
 ### Fisico Relaciones
+Cuando hablamos de (0, n), hablamos de las dos formas (0, n) y (1, n)
 
 - Se generan cuando hay (0, 1) o (0, n) de cualquier lado
 - (0, 1)
     - (0, 1) Junto los dos identificadores y subrayo cualquiera de los dos
     - (0, n) Junto los dos identificadores y subrayo el id del lado del (0, 1)
-- (0, n), (0, 1) Junto los dos identificadores y los subrayo los dos
+- (0, n), (0, n) Junto los dos identificadores y los subrayo los dos
 
 
 ### Parcial
@@ -190,8 +191,23 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 <br>
 <img src='https://user-images.githubusercontent.com/55964635/204168183-726bc9ab-398e-47c4-9297-472f1322fd67.png'>
 
+Tramos y posee tiene relacion (1, 1)
 </details>
 
+
+#### Entidades
+
+- **Telefono** = (`nro`)
+- **Persona** = (`Dni`, fk(nombre, distancia), Ny Ap, Dirección, Tipo, Antecedentes Medicos?)
+- **Mail** = (`mail`)
+- **Tramos** = (`Distancia, fk(nombre)`, Recaudado)
+- **Carrera** = (`nombre`, Dir Fin, Dia Comienzo)
+
+#### Relaciones
+
+- **Llega** = ()
+- **Tiene** = ()
+- **Tiene2** = ()
 
 ## Sql
 - [Insertar](#insertar)
