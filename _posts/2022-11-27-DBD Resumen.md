@@ -164,7 +164,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 </ul>
 
 
-</details>
+</details></details>
 
 
 
