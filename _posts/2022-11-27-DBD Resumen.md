@@ -205,9 +205,9 @@ Tramos y posee tiene relacion (1, 1)
 
 #### Relaciones
 
-- **Llega** = ()
-- **Tiene** = ()
-- **Tiene2** = ()
+- **Llega** = (`Dni`, nombre, Distancia, puesto)
+- **Tiene** = (`nro, dni`)
+- **Tiene2** = (`mail, dni`)
 
 ## Sql
 - [Insertar](#insertar)
