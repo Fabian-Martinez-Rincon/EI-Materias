@@ -245,15 +245,11 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
     ```
     π nombre (Persona)
     ```
-- **Unión** (La union de toda la vida)
+- **Unión e Intersección** (La union de toda la vida)
     ```
-    Tabla1 ∪ Tabla2
+    Tabla1 ∪/∩ Tabla2
     ```
-- **Intersección** ()
-    ```
-    Tabla1 ∩ Tabla2
-    ```
-- **Producto Cartesiano:**
+- **Producto Cartesiano** (No usar a no ser de que tengas tablas con el mismo nombre)
 - **Producto Natural:**
 - **Diferencia:**
 - **División:**
