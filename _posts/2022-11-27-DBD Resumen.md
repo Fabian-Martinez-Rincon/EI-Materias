@@ -10,7 +10,7 @@ tags: [DBD, Base de datos, logico, fisico]
 ### ``Indice``
 - [Conceptual](#conceptual)
 - [Logico-Fisico](#logicofisico)
-- [Algebra Relacional y Sql]()
+- [Algebra Relacional y Sql](#algebra-y-sql)
 
 ## ``Conceptual``
 
@@ -149,7 +149,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 </details>
 
 <details >
-<summary>📚 Resumen Logico</summary>
+<summary>📚 Resumen Fisico</summary>
 <br>
 <img src='https://user-images.githubusercontent.com/55964635/204166839-63012958-7bed-4e3e-831e-82af542665a5.png'>
 
@@ -216,12 +216,20 @@ Tramos y posee tiene relacion (1, 1)
 ---
 
 ## `Algebra y Sql`
-## Sql
-- [Insertar](#insertar)
-- [Eliminar](#eliminar)
-- [Actualizar](#actualizar)
 
-### Insertar
-### Eliminar
-### Actualizar
+<details >
+<summary>📚 Algebra Relacional</summary>
+<br>
+<img src='https://user-images.githubusercontent.com/55964635/204201478-8f69348e-87ea-4c50-a6a9-323af90dc08b.png'>
+<img src='https://user-images.githubusercontent.com/55964635/204202217-4b6f9917-8ca6-4b70-b64d-78295046daa1.png'>
+
+</details>
+
+<details >
+<summary>📚 Sql</summary>
+<br>
+<img src='https://user-images.githubusercontent.com/55964635/204166839-63012958-7bed-4e3e-831e-82af542665a5.png'>
+
+</details>
+
 
