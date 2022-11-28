@@ -222,7 +222,7 @@ Tramos y posee tiene relacion (1, 1)
 <br>
 <img src='https://user-images.githubusercontent.com/55964635/204201478-8f69348e-87ea-4c50-a6a9-323af90dc08b.png'>
 <img src='https://user-images.githubusercontent.com/55964635/204202217-4b6f9917-8ca6-4b70-b64d-78295046daa1.png'>
-
+<br>
 </details>
 
 <details >
