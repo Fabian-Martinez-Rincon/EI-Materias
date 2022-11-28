@@ -868,8 +868,7 @@ code {
   padding: 0.125rem 0.25rem;
 
   border-radius: 0.25rem;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+
   color: #c7254e;
   background-color: #f9f2f4;
 }
@@ -898,6 +897,8 @@ pre {
   background-position-y: 0.625rem;
   border: 1px solid rgba(0,0,0,0.1);
   border-left: 0.4375rem solid #444;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
