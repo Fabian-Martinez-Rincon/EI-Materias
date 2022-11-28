@@ -273,6 +273,15 @@ Tramos y posee tiene relacion (1, 1)
 ISBN(FK) y Nro_Ejemplar son foraneas de copia
 
 - `1)` Listar el titulo, género (el Nombre del Género) y descripción de aquellos libros editados por la editorial "Nueva Editorial". Dicho listado deberá estar ordenado por titulo.
+```sql
+Select Distinct (L.Titulo, G.Nombre_genero, L.Descripcion)
+from LIBRO L 
+    INNER JOIN LIBRO-EDITORIAL LE (L.ISBN = LE.ISBN)
+    INNER JOIN EDITORIAL E (LE.Cod_Editorial = E.Cod_Editorial)
+    INNER JOIN GENERO G (L.Cod_Genero = G.Cod_Genero)
+where (E.Denominacion = Nueva Editorial)
+ORDER BY Titulo
+```
 - `2)` Listar el apellido y nombre de aquellos socios cuya fecha de ingreso esté entre el 01/9/2022 y el 30/09/2022. Dicho listado debera estar ordenado por apellido y nombre
 - `3)` Listar el nombre, apellido, fecha de Nacimiento y cantidad de prestamos de aquellos socias que hayan solicitado más de 5 prestamos. Dicho listado deberá estar ordenado por Apellido.
 - `4)` Listar el DNI, apellido, y nombre de aquellos socios que no tengan préstamos de libros editados por la editorial "Gran Editorial". Dicho listado deberá estar ordenado por Apellido y Nombre
