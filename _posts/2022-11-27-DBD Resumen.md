@@ -249,56 +249,7 @@ Tramos y posee tiene relacion (1, 1)
 
 ### Algebra Relacional Operaciones importantes
 
-Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tablas tengan una 
-- **Selección** (Filtra Tuplas dependiendo del condicional)
-    ```
-    σ nombre = 'Carlos' (Persona)
-     ```
-- **Proyección** (Filtra columnas)
-    ```
-    π nombre (Persona)
-    ```
-- **Unión e Intersección** (La union de toda la vida)
-    ```
-    Tabla1 ∪/∩ Tabla2
-    ```
-- **Producto Cartesiano** (No usar a no ser de que tengas tablas con el mismo nombre)
-    ```
-    tabla1 x tabla2
-    ```
-- **Producto Natural** (Filtra las tuplas que tengan en comun)
-    ```
-    tabla1 ⨝ tabla2
-    ```
-- **Diferencia** Para quedarme los elementos que no cumplen con cierta condición
-    ```
-    tabla1 - tabla2
-    ```
-- **División** Solo se usa cuando nos piden todos los elementos que tengan todos los elementos de otra tabla
-    ```
-    tabla1 % tabla2
-    ```
-- **Renombre** 
-    ```
-    ρT(Tabla)
-    ```
-- **Asignación**
-    ```
-    A <= Consulta
-    ```
-- **Insertar**
-    ```
-    Producto <= Producto ∪ {(1234, 'Tuerca de 9mm', 10, 50, $10)}
-    ```
-- **Eliminar**
-    ```
-    Tabla1 - Tabla2
-    ```
-- **Actualizar**
-    ```
-    Ratones ⇐ σbanda.nombreBanda = “Ratones Paranoicos” (Banda)
-    δ Ratones.año_creacion ⇐ Ratones.año_creacion = 1983
-    ```
+
 
 
 ### Parcial Algebra y Sql
@@ -340,6 +291,10 @@ ISBN(FK) y Nro_Ejemplar son foraneas de copia
         )
     ```
 - `7)` Agregar un nuevo socio con el nro_socio, DNI, Apellido, Nombre y Fecha de nacimiento que prefiera.
+- **Resultado**
+    ```
+    SOCIO <= SOCIO ∪ {(1234,)}
+    ```
 - `8)` Modificar el titulo del libro cuyo ISBN es 2152-2020 por el titulo "El Código X"
 
 
