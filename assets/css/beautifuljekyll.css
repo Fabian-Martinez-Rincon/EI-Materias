@@ -870,8 +870,7 @@ code {
   border-radius: 0.25rem;
 
   color: #c7254e;
-  
-  filter: invert(100%);
+  background-color: #f9f2f4;
 }
 
 pre code {
