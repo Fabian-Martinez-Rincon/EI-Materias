@@ -293,10 +293,12 @@ ISBN(FK) y Nro_Ejemplar son foraneas de copia
 - `7)` Agregar un nuevo socio con el nro_socio, DNI, Apellido, Nombre y Fecha de nacimiento que prefiera.
 - **Resultado**
     ```
-    SOCIO <= SOCIO ∪ {(1234,)}
+    SOCIO <= SOCIO ∪ {(1234, 777, "Rey", "Vegeta", 1-1-2000, 1-1-2022)}
     ```
 - `8)` Modificar el titulo del libro cuyo ISBN es 2152-2020 por el titulo "El Código X"
-
+    ```
+    δTITULO <= 'El codigo x' (σ ISBN = 2152-2020 (Libro))
+    ```
 
 
 ## Links
