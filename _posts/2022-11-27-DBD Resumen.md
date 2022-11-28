@@ -105,30 +105,28 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
     - teléfono 
     - mail
 
-<details>
-<summary>📚 Resultado completo</summary>
 
-<img src="https://user-images.githubusercontent.com/55964635/204157808-2491b5e1-bade-4d07-b87b-9817a4fe1f8a.jpg">
 
-</details>
+![Conceptual](https://user-images.githubusercontent.com/55964635/204165975-87cae88d-72ad-41c2-a329-783bca8e5476.png)
+
+
+
+
+
+
 
 
 ## ``Logico|Fisico``
 
+#### 📚 Resumen Logico
 
-<details>
-<summary>📚 Resumen Logico</summary>
+![Fisico](https://user-images.githubusercontent.com/55964635/204165940-e363b9a8-f672-4606-b046-3dcb4f1e734c.png)
 
-<img src="https://user-images.githubusercontent.com/55964635/204161659-ddb30a8f-2579-4fba-81cc-10a8d4db0ad6.jpg">
 
-</details>
+#### 📚 Resumen Fisico
 
-<details>
-<summary>📚 Resumen Fisico</summary>
+![image (3)](https://user-images.githubusercontent.com/55964635/204166839-63012958-7bed-4e3e-831e-82af542665a5.png)
 
-<img src="https://user-images.githubusercontent.com/55964635/204160748-60c580f2-7407-4ff6-869d-ef91548990a8.jpg">
-
-</details>
 
 ### Entidades
 
