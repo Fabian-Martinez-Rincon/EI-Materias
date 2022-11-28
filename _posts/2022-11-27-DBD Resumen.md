@@ -273,7 +273,7 @@ Tramos y posee tiene relacion (1, 1)
 ISBN(FK) y Nro_Ejemplar son foraneas de copia
 
 - `1)` Listar el titulo, género (el Nombre del Género) y descripción de aquellos libros editados por la editorial "Nueva Editorial". Dicho listado deberá estar ordenado por titulo.
-    ```SQL
+    ```
     Select Distinct (L.Titulo, G.Nombre_genero, L.Descripcion)
     from LIBRO L 
         INNER JOIN LIBRO-EDITORIAL LE (L.ISBN = LE.ISBN)
@@ -283,14 +283,14 @@ ISBN(FK) y Nro_Ejemplar son foraneas de copia
     ORDER BY T.Titulo
     ```
 - `2)` Listar el apellido y nombre de aquellos socios cuya fecha de ingreso esté entre el 01/9/2022 y el 30/09/2022. Dicho listado debera estar ordenado por apellido y nombre.
-    ```SQL
+    ```
     Select s.Apellido, Nombre
     from SOCIO s
     WHERE (s.Fecha_ingreso BETWEEN "01-9-2022" and "30-09-2022")
     ORDER BY s.Apellido, s.Nombre
     ```
 - `3)` Listar el nombre, apellido, fecha de Nacimiento y cantidad de prestamos de aquellos socios que hayan solicitado más de 5 prestamos. Dicho listado deberá estar ordenado por Apellido.
-```SQL
+```
     Select s.Nombre, s.Apellido, Fecha_Nacimiento, CONT(*)
     from SOCIO s
         INNER JOIN PRESTAMO P()
