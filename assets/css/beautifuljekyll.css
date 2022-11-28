@@ -869,6 +869,8 @@ code {
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 0.25rem;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 pre code {
