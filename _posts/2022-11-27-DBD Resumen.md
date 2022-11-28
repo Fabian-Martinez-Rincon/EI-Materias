@@ -2,7 +2,7 @@
 layout: post
 title: 🤖 Diseño de Base de Datos Resumen
 cover-img: /assets/img/portadaObjetos.jpg
-thumbnail-img: /assets/img/sql.jpg
+thumbnail-img: /assets/img/logos/DBD.png
 share-img: /assets/img/portadaObjetos.jpg
 tags: [DBD, Base de datos, logico, fisico]
 ---
