@@ -236,10 +236,9 @@ Tramos y posee tiene relacion (1, 1)
 
 ### Algebra Relacional
 
+Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tablas tengan una 
 - **Selección**
-    ```
-    σ nombre = 'Carlos' (Persona) 
-    ```
+    ```σ nombre = 'Carlos' (Persona) ```
 - **Proyección**
     ```
     π nombre (Persona)
