@@ -247,7 +247,7 @@ Tramos y posee tiene relacion (1, 1)
 <br>
 </details>
 
-### Algebra Relacional
+### Algebra Relacional Operaciones importantes
 
 Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tablas tengan una 
 - **Selección** (Filtra Tuplas dependiendo del condicional)
@@ -291,8 +291,14 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
     Producto <= Producto ∪ {(1234, 'Tuerca de 9mm', 10, 50, $10)}
     ```
 - **Eliminar**
+    ```
+    Tabla1 - Tabla2
+    ```
 - **Actualizar**
-
+    ```
+    Ratones ⇐ σbanda.nombreBanda = “Ratones Paranoicos” (Banda)
+    δ Ratones.año_creacion ⇐ Ratones.año_creacion = 1983
+    ```
 
 
 ### Parcial Algebra y Sql
@@ -305,7 +311,15 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
 
 </details>
 
+- **SOCIO=**(`nro_socio`, DNI, Apellido, Nombre, Fecha_Nacimiento, Fecha_ingreso)
+- **LIBRO=**(`ISBN`, Titulo, Cod_Genero, Descripcion)
+- **COPIA=**(`ISBN(FK), Nro_Ejemplar`, Estado)
+- **EDITORIAL=**(`Cod_Editorial`, Denominación, Telefono, Calle, Numero, Piso, Dpto)
+- **LIBRO-EDITORIAL=**(`ISBN(FK), Cod_Editorial(FK), Año_Edicion`)
+- **GENERO=**(`Cod_General`, Nombre_genero)
+- **PRESTAMO=** (`Nro_Prestamo`, nro_Socio(FK), ISBN(FK), Fecha_Prestamo, Fecha_Devolucion)
 
+ISBN(FK) y Nro_Ejemplar son foraneas de copia
 
 ## Links
 - [Algunas operaciones de Algebra Relacional](https://gist.github.com/miporto/01d443e83269c555baa435cf48eaaf76)
