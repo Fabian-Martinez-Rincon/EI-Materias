@@ -316,7 +316,7 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
 - **COPIA=**(`ISBN(FK), Nro_Ejemplar`, Estado)
 - **EDITORIAL=**(`Cod_Editorial`, Denominación, Telefono, Calle, Numero, Piso, Dpto)
 - **LIBRO-EDITORIAL=**(`ISBN(FK), Cod_Editorial(FK), Año_Edicion`)
-- **GENERO=**(`Cod_General`, Nombre_genero)
+- **GENERO=**(`Cod_Genero`, Nombre_genero)
 - **PRESTAMO=** (`Nro_Prestamo`, nro_Socio(FK), ISBN(FK), Fecha_Prestamo, Fecha_Devolucion)
 
 ISBN(FK) y Nro_Ejemplar son foraneas de copia
@@ -327,15 +327,22 @@ ISBN(FK) y Nro_Ejemplar son foraneas de copia
 - `4)` Listar el DNI, apellido, y nombre de aquellos socios que no tengan préstamos de libros editados por la editorial "Gran Editorial". Dicho listado deberá estar ordenado por Apellido y Nombre
 - `5)` Mostrar que cantidad de socios tienen actualmente libros prestados cuyo estado sea "Bueno"
 - `6)` Listar el titulo, genero, denominación de la editorial y año de edición de aquellos libros editados entre los años 1980 y 2015.
+- **Resultado**
+    GENERO, LIBRO, LIBRO-EDITORIAL, EDITORIAL
+    ```
+    π Titulo, Nombre_genero , Denominación, Año_Edicion(
+        GENERO ⨝ LIBRO ⨝ (
+            σ Año_Edicion >= '01-1-1980' ʌ Año_Edicion <= '01-1-2015' 
+            (LIBRO-EDITORIAL)
+        )
+        ⨝
+        EDITORIAL
+        )
+    ```
 - `7)` Agregar un nuevo socio con el nro_socio, DNI, Apellido, Nombre y Fecha de nacimiento que prefiera.
 - `8)` Modificar el titulo del libro cuyo ISBN es 2152-2020 por el titulo "El Código X"
 
-#### Algebra Relacional
 
-Punto 1
-```
-
-```
 
 ## Links
 - [Algunas operaciones de Algebra Relacional](https://gist.github.com/miporto/01d443e83269c555baa435cf48eaaf76)
