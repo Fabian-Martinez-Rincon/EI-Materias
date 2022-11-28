@@ -10,7 +10,10 @@ tags: [DBD, Base de datos, logico, fisico]
 
 ## ``Conceptual``
 
-#### Enunciado
+<details >
+<summary>📚 Enunciado Parcial</summary>
+<br>
+
 Diseño de Bases De Datos- Examen práctico- Primer Fecha- Tema 1- 8/11/2022\
 Importante: Consignar en primer hoja: nombre, apellido, legajo, tema de examen, turno de práctica, temas rendidos y cantidad de hojas entregadas, En restantes hojas poner legajo y nro hoja/total hojas\
 ¿Modelado conceptual - (Tema 1)
@@ -45,7 +48,10 @@ detallada, teléfono y mail.
 
 Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los empleados de la papelera pueden ser clientes.
 
----
+
+</details>
+
+#### Resolución
 
 - **Punto de venta**
     - número unico (Identificador)
@@ -158,8 +164,21 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 
 ### Parcial
-![image](https://user-images.githubusercontent.com/55964635/204159760-6a40c834-60c0-4443-8681-6c90018fcf82.png)
-![ParcialLogico](https://user-images.githubusercontent.com/55964635/204168183-726bc9ab-398e-47c4-9297-472f1322fd67.png)
+
+<details >
+<summary>📚 Enunciado</summary>
+
+<img src='https://user-images.githubusercontent.com/55964635/204159760-6a40c834-60c0-4443-8681-6c90018fcf82.png'>
+
+</details>
+
+<details >
+<summary>📚 Parcial Resuelto</summary>
+
+<img src='https://user-images.githubusercontent.com/55964635/204168183-726bc9ab-398e-47c4-9297-472f1322fd67.png'>
+
+</details>
+
 
 ## Sql
 - [Insertar](#insertar)
