@@ -18,6 +18,10 @@ tags: [DBD, Base de datos, logico, fisico]
 
 ## ``Conceptual``
 
+
+### Parcial Conceptual
+
+
 <details >
 <summary>📚 Enunciado Parcial</summary>
 <br>
@@ -66,8 +70,6 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 
 </details>
-
-### Parcial Conceptual
 
 <details >
 <summary>📚 Contexto Resuelto</summary>
@@ -303,8 +305,14 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
     ```
     tabla1 ⨝ tabla2
     ```
-- **Diferencia** Para quedarme los elementos que 
-- **División**
+- **Diferencia** Para quedarme los elementos que no cumplen con cierta condición
+    ```
+    tabla1 - tabla2
+    ```
+- **División** Solo se usa cuando nos piden todos los elementos que tengan todos los elementos de otra tabla
+    ```
+    tabla1 % tabla2
+    ```
 - **Renombre**
 - **Asignación**
 - **Insertar**
