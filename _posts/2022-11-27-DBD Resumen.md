@@ -250,8 +250,14 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
     Tabla1 ∪/∩ Tabla2
     ```
 - **Producto Cartesiano** (No usar a no ser de que tengas tablas con el mismo nombre)
-- **Producto Natural:**
-- **Diferencia:**
+    ```
+    tabla1 x tabla2
+    ```
+- **Producto Natural** (Filtra las tuplas que tengan en comun)
+    ```
+    tabla1 ⨝ tabla2
+    ```
+- **Diferencia** Para quedarme los elementos que 
 - **División:**
 - **Renombre:**
 - **Asignación:**
