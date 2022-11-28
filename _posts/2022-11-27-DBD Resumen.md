@@ -278,9 +278,18 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
     ```
     tabla1 % tabla2
     ```
-- **Renombre**
+- **Renombre** 
+    ```
+    ρT(Tabla)
+    ```
 - **Asignación**
+    ```
+    A <= Consulta
+    ```
 - **Insertar**
+    ```
+    Producto <= Producto ∪ {(1234, 'Tuerca de 9mm', 10, 50, $10)}
+    ```
 - **Eliminar**
 - **Actualizar**
 
