@@ -9,7 +9,10 @@ tags: [DBD, Base de datos, logico, fisico]
 
 ### ``Indice``
 - [Conceptual](#conceptual)
+    - [Parcial](#parcial-conceptual)
 - [Logico-Fisico](#logicofisico)
+    - [Parcial Logico](#parcial-logico)
+    - [Parcial Fisico](#parcial-fisico)
 - [Algebra Relacional y Sql](#algebra-y-sql)
 
 ## ``Conceptual``
@@ -126,6 +129,7 @@ Por último de los clientes se conoce D.N.I, apellidos, nombres y C.U.1,T. Los e
 
 
 
+### Parcial Conceptual
 
 <details open>
 <summary>📚 Parcial Resuelto</summary>
@@ -190,6 +194,8 @@ Cuando hablamos de (0, n), hablamos de las dos formas (0, n) y (1, n)
 
 </details>
 
+### Parcial Logico
+
 <details open>
 <summary>📚 Parcial Resuelto</summary>
 <br>
@@ -198,6 +204,8 @@ Cuando hablamos de (0, n), hablamos de las dos formas (0, n) y (1, n)
 Tramos y posee tiene relacion (1, 1)
 </details>
 
+
+### Parcial Fisico
 
 #### Entidades
 
@@ -258,12 +266,24 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
     tabla1 ⨝ tabla2
     ```
 - **Diferencia** Para quedarme los elementos que 
-- **División:**
-- **Renombre:**
-- **Asignación:**
-- **Insertar:**
-- **Eliminar:**
-- **Actualizar:**
+- **División**
+- **Renombre**
+- **Asignación**
+- **Insertar**
+- **Eliminar**
+- **Actualizar**
+
+
+
+### Parcial Algebra y Sql
+
+<details >
+<summary>📚 Enunciado</summary>
+<br>
+
+<img src='https://user-images.githubusercontent.com/55964635/204280298-a9affdcc-f6eb-478e-95dc-2f4cc17cb428.jpeg'>
+
+</details>
 
 
 
