@@ -266,3 +266,6 @@ Para hacer todas las operaciones antes tenemos que asegurarnos de que ambas tabl
 - **Actualizar:**
 
 
+
+## Links
+- [Algunas operaciones de Algebra Relacional](https://gist.github.com/miporto/01d443e83269c555baa435cf48eaaf76)
