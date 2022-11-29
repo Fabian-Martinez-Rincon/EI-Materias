@@ -268,7 +268,7 @@ Tramos y posee tiene relacion (1, 1)
 - **EDITORIAL=**(`Cod_Editorial`, Denominación, Telefono, Calle, Numero, Piso, Dpto)
 - **LIBRO-EDITORIAL=**(`ISBN(FK), Cod_Editorial(FK), Año_Edicion`)
 - **GENERO=**(`Cod_Genero`, Nombre_genero)
-- **PRESTAMO=** (`Nro_Prestamo`, nro_Socio(FK), ISBN(FK), Fecha_Prestamo, Fecha_Devolucion)
+- **PRESTAMO=** (`Nro_Prestamo`, nro_Socio(FK), ISBN(FK), Nro_Ejemplar(FK), Fecha_Prestamo, Fecha_Devolucion)
 
 ISBN(FK) y Nro_Ejemplar son foraneas de copia
 
