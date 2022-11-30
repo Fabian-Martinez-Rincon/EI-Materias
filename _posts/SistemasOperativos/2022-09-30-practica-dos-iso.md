@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 📓 Practica 2
-thumbnail-img: /assets/img/logos/22.png
+thumbnail-img: /assets/img/logos/33.png
 tags: [iso, sistemas operativos, practica 2, linux]
 ---
 
