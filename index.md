@@ -12,7 +12,6 @@ Voy publicando data que en lo personal creo que es importante, tambien referenci
 
 
 - [Diseño de Base de Datos](https://fabocorp.github.io/DBD/)
-- [Orientacion a Objetos 1](https://fabocorp.github.io/OO1/)
 - [Introducción a Sistemas Operativos](https://fabocorp.github.io/ISO/)
 
 ---
