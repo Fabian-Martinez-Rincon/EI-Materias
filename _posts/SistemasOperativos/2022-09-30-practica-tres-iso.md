@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 📚 Practica 3
-thumbnail-img: /assets/img/logos/3.png
+thumbnail-img: /assets/img/logos/33.png
 tags: [iso, sistemas operativos, practica 3, shell, linux]
 ---
 
