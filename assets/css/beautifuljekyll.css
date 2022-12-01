@@ -741,10 +741,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 .header-section.has-img .no-img {
   margin-top: 0;
-  background-color: #FCFCFC;
   margin: 0 0 2.5rem;
   padding: 1.25rem 0;
-  box-shadow: 0 0 0.3125rem #AAA;
 }
 /* Many phones are 320 or 360px, so make sure images are a proper aspect ratio in those cases */
 .header-section.has-img .intro-header.no-img {
@@ -833,7 +831,7 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: transparent;
   margin: 0;
   padding: 0;
 }
