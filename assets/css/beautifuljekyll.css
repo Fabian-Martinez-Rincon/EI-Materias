@@ -828,6 +828,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 table {
   padding: 0;
+  background-color: transparent;
 }
 table tr {
   border-top: 1px solid #cccccc;
@@ -842,6 +843,7 @@ table tr th {
   font-weight: bold;
   border: 1px solid #cccccc;
   text-align: left;
+  background-color: transparent;
   margin: 0;
   padding: 0.375rem 0.8125rem;
 }
