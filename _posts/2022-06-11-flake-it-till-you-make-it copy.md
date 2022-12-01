@@ -2,9 +2,9 @@
 layout: post
 title: ✏️ Introducción
 subtitle: Post
-cover-img: /assets/img/PortadasEditadas/intro.png
+cover-img: /assets/img/PortadasEditadas/intro.jpg
 thumbnail-img: /assets/img/logos/Intro.png
-share-img: /assets/img/PortadasEditadas/intro.png
+share-img: /assets/img/PortadasEditadas/intro.jpg
 tags: [books, test]
 ---
 

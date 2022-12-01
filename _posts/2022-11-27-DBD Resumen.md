@@ -2,9 +2,9 @@
 layout: post
 title: 🤖 Diseño de Base de Datos Resumen
 subtitle: Fui haciendo los parciales para estudiar porque andaba corto de tiempo
-cover-img: /assets/img/PortadasEditadas/sql.png
+cover-img: /assets/img/PortadasEditadas/sql.jpg
 thumbnail-img: /assets/img/logos/DBD.png
-share-img: /assets/img/PortadasEditadas/sql.png
+share-img: /assets/img/PortadasEditadas/sql.jpg
 tags: [DBD, Base de datos, logico, fisico]
 ---
 
