@@ -8,7 +8,7 @@ share-img: /assets/img/PortadasEditadas/Ingenieria2.jpg
 tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 ---
 
-## Ingenieria de Software 1 
+## Trayhardeando la tercera fecha
 
 - [La strat CU](#la-strat-casos-de-uso)
 - [La strat HU](#la-start-historias-de-usuario)
