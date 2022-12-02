@@ -24,7 +24,13 @@ tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 - **Flecha Normal** Significa que el actor ejecuta el caso de uso
 - <uses> El CU 1 utiliza al CU 5 (que seria el apuntado) se utiliza cuando tenemos mas de un CU que utilizan un CU
 - <Extend> en caso de que sea una simple extensión
-- **Linea sin flecha** el actor interactua en el CU 
+- **Linea sin flecha** el actor interactua en el CU
+- Usar gerarquias para los casos de uso que lo ocasionan dos actores distintos
+- Siempre empieza el actor, a no ser de que tengamos algun extend con el sistema
+- Mostramos como interactua el actor con el sistema
+- Podemos poner como precondicion que el usuario tenga una sesion iniciada sin haberla graficado.
+- En los casos en los que mi CU tenga un CU que lo extiende, tenemos que agregar en los pasos del sistema. El sistema ejecuta el caso de uso "Pagar con tarjeta" por ejemplo
+ 
 
 # La Start Historias de Usuario
 
