@@ -21,6 +21,8 @@ tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 - Tenemos que poner el cuadrado
 - Las cosas que interactuan directamente con el sistema
 - Si tengo el `actor 2` debajo del `actor 1` significa que el `actor 2` puede hacer todo lo que hace el `actor 1`, mas las cosas que puede hacer el `actor 2`
+- **Flecha Normal** Significa que el actor ejecuta el caso de uso
+- <uses> El caso de uso 1 utiliza al caso de uso 5 (qque seria el apuntado)
 
 # La Start Historias de Usuario
 
