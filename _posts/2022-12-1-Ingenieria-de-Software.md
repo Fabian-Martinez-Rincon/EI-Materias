@@ -10,13 +10,19 @@ tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 
 ## Ingenieria de Software 1 
 
-- [La strat](#la-strat)
+- [La strat CU](#la-strat-casos-de-uso)
+- [La strat HU](#la-start-historias-de-usuario)
 - [Parcial Primera Fecha](#parcial-primera-fecha)
 - [Parcial Segunda Fecha](#parcial-segunda-fecha)
 
 
-# La Strat
+# La Strat Casos de uso
 
+- Tenemos que poner el cuadrado
+- Las cosas que interactuan directamente con el sistema
+- <Uses>
+
+# La Start Historias de Usuario
 
 ## Parcial Primera Fecha
 
