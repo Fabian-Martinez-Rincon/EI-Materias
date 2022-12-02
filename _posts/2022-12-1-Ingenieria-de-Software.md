@@ -10,6 +10,16 @@ tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 
 ## Ingenieria de Software 1 
 
+- [La strat](#la-strat)
+- [Parcial Primera Fecha](#parcial-primera-fecha)
+- [Parcial Segunda Fecha](#parcial-segunda-fecha)
+
+
+# La Strat
+
+
+## Parcial Primera Fecha
+
 Ingeniería de Software 2022 - Parcial primera fecha - Sábado 22/10/2022
 
 ### 1. Historias de usuario
@@ -37,4 +47,36 @@ Realice los escenarios y el diagrama completo de los casos de uso identificados 
 anterior.
 
 
+---
 
+## Parcial Segunda Fecha
+
+### Historias de Usuario
+
+Realice las tarjetas completas de las historias de usuario identificadas en el siguiente dominio (Salvo iniciar y cerrar sesión)
+
+Se desea modelar un sistema para el manejo de alquiler de car
+pas para fiestas. Cualquier persona puede pedi
+presupuesto. Para esto deber seleccionar el tipo de capa a presupuestar, cantidad de personas, y fecha del evento
+(debe ser dentro del año actual). Si hay disponibilidad se genera un código, se imprime el presupuesto y se reserva la
+carpa por 48hs (validez del presupuesto). Pasadas las 48hs si la reserva no se hizo efectiva otro sistema se encarga de liberarla.
+
+Los clientes deben loguearse para poder alqullar o hacer pagos. Esto requiere una registración. Para registrarse, el
+sistema solicita nombre, apellido, fecha de nacimiento, dni (único y utlizado como nombre de usuario), dirección de
+correo electrónico y contraseña (debe ser de 6 caracteres o más). Una vez que se completa el registro el sistema
+envía un mensaje de bienvenida al correo ingresado. Sólo se permite el registro de personas mayores de 21 años.
+
+Para alquilar una carpa, el cliente deberá ingresar el código de presupuesto la dirección y la seña a pagar (no menor
+al 50% y hasta el 100% del monto presupuestado). La seña se debe abonar a través de tarjeta de crédito (Unico
+medio de pago) para lo cual es necesario conectarse con un servidor externo. El cliente debe ingresar el número de
+Tarjeta, la fecha de vencimiento y el código de seguridad de la tarjeta. Una vez abonada la seña el sistema envía un
+comprobante con el número de alquiler y el monto restante a pagar al correo del cliente.
+
+ 
+
+En cualquier momento, el cliente podrá pagar el resto del alquiler ingresando el número de alquiler, El pogo también
+se realizará a través de la tarjeta de crédito (tener en cuenta que podria haber abonado el 100%))
+
+### Casos de Uso
+
+Realice el diagrama completo de y los escenarios de los casos de uso identificados. No debe realizar los escenarios de iniciar y cerrar sesión. El diagrama debe contener extens y/o uses
