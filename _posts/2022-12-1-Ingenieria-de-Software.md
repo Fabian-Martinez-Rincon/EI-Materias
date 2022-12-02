@@ -22,7 +22,9 @@ tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 - Las cosas que interactuan directamente con el sistema
 - Si tengo el `actor 2` debajo del `actor 1` significa que el `actor 2` puede hacer todo lo que hace el `actor 1`, mas las cosas que puede hacer el `actor 2`
 - **Flecha Normal** Significa que el actor ejecuta el caso de uso
-- <uses> El caso de uso 1 utiliza al caso de uso 5 (qque seria el apuntado)
+- <uses> El CU 1 utiliza al CU 5 (que seria el apuntado) se utiliza cuando tenemos mas de un CU que utilizan un CU
+- <Extend> en caso de que sea una simple extensión
+- **Linea sin flecha** el actor interactua en el CU 
 
 # La Start Historias de Usuario
 
