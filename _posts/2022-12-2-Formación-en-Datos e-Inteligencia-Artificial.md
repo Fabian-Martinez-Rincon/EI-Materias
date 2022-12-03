@@ -7,4 +7,4 @@ share-img: /assets/img/PortadasEditadas/ia.jpg
 tags: [Argentina Programa, Ia, machine learning]
 ---
 
-## Curso de inteligencia ar
+## Formación en Datos e Inteligencia Artificial
