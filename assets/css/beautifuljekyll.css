@@ -741,8 +741,10 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 .header-section.has-img .no-img {
   margin-top: 0;
+  background-color: #FCFCFC;
   margin: 0 0 2.5rem;
   padding: 1.25rem 0;
+  box-shadow: 0 0 0.3125rem #AAA;
 }
 /* Many phones are 320 or 360px, so make sure images are a proper aspect ratio in those cases */
 .header-section.has-img .intro-header.no-img {
@@ -808,7 +810,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: rgb(34, 34, 34);
+  background-color: #FFF;
   border-radius: 0;
   color: {{ site.text-col | default: "#404040" }};
 }
@@ -828,22 +830,20 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 table {
   padding: 0;
-  background-color: transparent;
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: transparent;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: transparent;
+  background-color: #f8f8f8;
 }
 table tr th {
   font-weight: bold;
   border: 1px solid #cccccc;
   text-align: left;
-  background-color: transparent;
   margin: 0;
   padding: 0.375rem 0.8125rem;
 }
@@ -866,11 +866,9 @@ table tr td :last-child {
 
 code {
   padding: 0.125rem 0.25rem;
-
-  border-radius: 0.25rem;
-
   color: #c7254e;
   background-color: #f9f2f4;
+  border-radius: 0.25rem;
 }
 
 pre code {
@@ -897,8 +895,6 @@ pre {
   background-position-y: 0.625rem;
   border: 1px solid rgba(0,0,0,0.1);
   border-left: 0.4375rem solid #444;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
