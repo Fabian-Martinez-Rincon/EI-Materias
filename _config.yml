@@ -124,7 +124,7 @@ post_search: true
 
 
 navbar-col: "#0d1117"
-navbar-text-col: "#000000"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#1a202c"
 page-col: "#290000"
 text-col: "#FFFFFF"
