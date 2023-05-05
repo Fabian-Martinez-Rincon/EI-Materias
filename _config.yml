@@ -48,7 +48,7 @@ social-network-links:
   github: Fabian-Martinez-Rincon
 #  twitter: daattali
 #  patreon: DeanAttali
-#  youtube: c/daattali
+  youtube: c/@FabianMartinezRincon
 #  medium: yourname
 #  reddit: yourname
   linkedin: fabian-martinez-rincon
@@ -66,7 +66,7 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-  #discord: invite/Fabo/6050 #invite/invite_code or users/userid 
+discord: discord.gg/Jur4R4Jcpx #invite/invite_code or users/userid 
   
 #  kaggle: yourname
 #  hackerrank: yourname
@@ -123,16 +123,17 @@ post_search: true
 
 
 
-navbar-col: "#FFFFFF"
-navbar-text-col: "#000000"
-navbar-border-col: "#1a202c"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
-text-col: "#000000"
-link-col: "#ffb342"
-hover-col: "#ffd160"
-footer-col: "#FFFFFF"
-footer-text-col: "#718096"
-footer-link-col: "#765bff"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
 #300000
 ##000000,#3e0000,#7c0000,#ba0000,#f80000
 
