@@ -123,14 +123,14 @@ post_search: true
 
 
 
-navbar-col: "#0d1117"
-navbar-text-col: "#FFFFFF"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#000000"
 navbar-border-col: "#1a202c"
-page-col: "#290000"
-text-col: "#FFFFFF"
+page-col: "#FFFFFF"
+text-col: "#000000"
 link-col: "#ffb342"
 hover-col: "#ffd160"
-footer-col: "#0d1117"
+footer-col: "#FFFFFF"
 footer-text-col: "#718096"
 footer-link-col: "#765bff"
 #300000
