@@ -120,9 +120,6 @@ post_search: true
 #footer-link-col: "#404040"
 #footer-hover-col: "#0085A1"
 
-
-
-
 navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
@@ -134,6 +131,18 @@ footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
+
+
+#navbar-col: "#FFFFFF"
+#navbar-text-col: "#000000"
+#navbar-border-col: "#1a202c"
+#page-col: "#FFFFFF"
+#text-col: "#000000"
+#link-col: "#ffb342"
+#hover-col: "#ffd160"
+#footer-col: "#FFFFFF"
+#footer-text-col: "#718096"
+#footer-link-col: "#765bff"
 #300000
 ##000000,#3e0000,#7c0000,#ba0000,#f80000
 
