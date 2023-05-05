@@ -8,7 +8,7 @@ subtitle: Guía para las materias de la facultad
 
 ## 🧉 Blogs informativos sobre materias
 
-Voy publicando data que en lo personal creo que es importante, tambien referencias a otras paginas como las de abajo. Y arriba en materias tienen repositorios directas a las materias que quieren ir. Por si quieren comparar ejercicios o si se estancaron en alguno. 
+Voy publicando data importante, tambien referencias a otras paginas como las de abajo. Y arriba en materias tienen repositorios a las materias que deseen. Pueden hablarme si quieren agregar sus repos. 
 
 ## Discord
 - [Link](discord.gg/Jur4R4Jcpx)
