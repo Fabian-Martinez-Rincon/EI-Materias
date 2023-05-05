@@ -12,11 +12,11 @@ Voy publicando data que en lo personal creo que es importante, tambien referenci
 
 ## [Discord](discord.gg/Jur4R4Jcpx)
 
-<a href="discord.gg/Jur4R4Jcpx">
+
 
 ![Devs Overflow](https://i.ibb.co/DLfyNb0/Mesa-de-trabajo-19beast-wwww2.png)
 
-</a>
+
 
 ### Links de Interes
 
