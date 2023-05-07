@@ -18,8 +18,8 @@ author: MITH arg
 navbar-links:
   Inicio: "/"
   1️⃣ Primero: "primero"
-  Segundo: "segundo"
-  Tercero: "tercero"
+  2️⃣ Segundo: "segundo"
+  3️⃣ Tercero: "tercero"
   MITH arg: "https://mith-arg.github.io/mith-arg/"
 
 # --- Logo --- #
