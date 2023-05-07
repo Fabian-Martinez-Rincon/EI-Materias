@@ -39,7 +39,7 @@ end;
 
 </td><td>
 
-```pascal
+{% highlight pascal linenos %}
 Procedure Insercion ( var v: vector; dimL: Integer );
 var 
     i, j: Integer; 
@@ -58,6 +58,6 @@ begin
         v[j+1]:= actual; 
     end;
 end;
-```
+{% endhighlight %}
 </td></tr>
 </table>
