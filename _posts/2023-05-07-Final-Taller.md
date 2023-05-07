@@ -12,11 +12,11 @@ En este resumen voy a poner codigo de R-Info y de Pascal ya que son los temas ma
 
 ### Imperativo
 
-Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez que el enunciado nos solicite retornar un vector ordenado por x campo.
+Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez que el enunciado nos solicite retornar un vector ordenado por x campo. Solo hace falta aprenderse uno de los dos
 
 <table><tr><td>Selección</td><td>Inserción</td></tr><tr><td>
 
-{% highlight pascal linenos %}
+{% highlight pascal %}
 Procedure Seleccion (var v:vector; dimL:Integer);
 var 
     i, j, p: Integer;
@@ -40,7 +40,7 @@ end;
 
 </td><td>
 
-{% highlight pascal linenos %}
+{% highlight pascal %}
 Procedure Insercion (var v:vector; dimL:Integer);
 var 
     i, j: Integer; 
