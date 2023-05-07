@@ -12,11 +12,6 @@ Voy publicando data importante, tambien referencias a otras paginas como las de 
 
 <img src="https://i.ibb.co/DLfyNb0/Mesa-de-trabajo-19beast-wwww2.png" alt="EI-MATERIAS" />
 
-### Links de Interes
-
-- [Diseño de Base de Datos](https://fabocorp.github.io/DBD/)
-- [Introducción a Sistemas Operativos](https://fabocorp.github.io/ISO/)
-- [Web para aumentar resolución a las imagenes](https://imgupscaler.com/)
 
 ---
 
