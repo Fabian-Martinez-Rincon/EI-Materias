@@ -35,8 +35,6 @@ Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez
   end;
 {% endhighlight %}
 
-
-
 </td><td>
 
 {% highlight pascal %}
@@ -100,31 +98,31 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
 <td>
  
 {% highlight pascal %}
-Procedure enOrden ( a : arbol );
-begin //Input 1,22,3,44,5,6,7,2,0
-    if ( a<> nil ) then begin
-        enOrden (a^.HI);
-        write (a^.dato,'|');
-        enOrden (a^.HD);
-    end;
-end;//1,2,3,5,6,7,22,44
+  Procedure enOrden ( a : arbol );
+  begin //Input 1,22,3,44,5,6,7,2,0
+      if ( a<> nil ) then begin
+          enOrden (a^.HI);
+          write (a^.dato,'|');
+          enOrden (a^.HD);
+      end;
+  end;//1,2,3,5,6,7,22,44
 {% endhighlight %}
+
 </td>
 <td>
- 
 
 {% highlight pascal %}
-Procedure preOrden ( a : arbol );
-begin //Input 1,22,3,4,55,67,7,0
-    if ( a<> nil ) then begin
-        write (a^.dato,'|');   
-        preOrden (a^.HI);
-        preOrden (a^.HD);
-    end;
-end;//Output 1,22,3,4,7,55,67
+  Procedure preOrden ( a : arbol );
+  begin //Input 1,22,3,4,55,67,7,0
+      if ( a<> nil ) then begin
+          write (a^.dato,'|');   
+          preOrden (a^.HI);
+          preOrden (a^.HD);
+      end;
+  end;//Output 1,22,3,4,7,55,67
 {% endhighlight %}
-</td>
- <td>
+
+</td><td>
   
 {% highlight pascal %}
 Procedure posOrden ( a : arbol );
@@ -136,7 +134,5 @@ begin //Input 1,22,2,44,6,77,5,4,3,0
     end;
 end;//Output 22,2,6,5,4,3,44,77,1
 {% endhighlight %}
-</td>
-</tr>
- 
-</table>
+
+</td></tr></table>
