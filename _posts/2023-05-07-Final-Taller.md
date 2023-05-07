@@ -87,6 +87,8 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
 {% endhighlight %}
 
 
+Si el arbol esta vacio, agregamos el elemento de forma normal, en caso de que no, preguntamos si el elemento es menor que el dato actual y lo llamamos recursivamente con el **Hijo Izquierdo** en caso contrario, lo mandamos con el **Hijo Derecho**
+
 ### Imprimir
 
 
