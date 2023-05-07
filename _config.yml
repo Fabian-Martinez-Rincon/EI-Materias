@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-# Site wide configuration
-
-title: Academic Website of Ted Laderas
-locale: en_ARG
-logo: 
-# filename of a logo image that has been placed into your images directory
-
-# Enter the following platform usernames if you would like for them to appear on your site.
-owner:
-  name: Ted Laderas
-  avatar: bio-photo.jpg
-  bio: "This is a sample Jekyll academic website."
-  email: fabianmartinezrincon.123@gmail.com
-  # Do not include the @ symbol in your Twitter username
-  twitter: laderast
-  linkedin: #username
-  github: laderast
-  orcid: # ID Number (ex. 0000-0000-0000-0000)
-  researchgate: #username
-  mendeley: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    scholar: #id
-=======
 # Welcome to Beautiful Jekyll!
 # This config file is meant for settings that affect your entire website. When you first
 # set up your website you should go through all these settings and edit them, but after
@@ -324,4 +297,3 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
->>>>>>> EI-Materias-Web/master
