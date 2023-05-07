@@ -17,13 +17,14 @@ Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez
 <table><tr><td>Selección</td><td>Inserción</td></tr><tr><td>
 
 {% highlight pascal linenos %}
-Procedure Seleccion ( var v: vector; dimL: Integer );
+Procedure Seleccion (var v:vector; dimL:Integer);
 var 
     i, j, p: Integer;
     item:integer;
 begin
+    {busca el mínimo y guarda en p la posición}
     for i:=1 to dimL-1 do 
-    begin {busca el mínimo y guarda en p la posición}
+    begin 
         p := i;
         for j := i+1 to dimL do
             if v[ j ] < v[ p ] then p:=j;
@@ -40,7 +41,7 @@ end;
 </td><td>
 
 {% highlight pascal linenos %}
-Procedure Insercion ( var v: vector; dimL: Integer );
+Procedure Insercion (var v:vector; dimL:Integer);
 var 
     i, j: Integer; 
     actual:integer;
