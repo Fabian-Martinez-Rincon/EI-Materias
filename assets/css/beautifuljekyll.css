@@ -883,6 +883,11 @@ pre {
   border-radius: 0.25rem;
   padding: 0.59375rem;
 }
+.highlight2 pre {
+  border: none;
+  background: none;
+  margin: 0;
+}
 .highlight pre {
   border: none;
   background: none;
