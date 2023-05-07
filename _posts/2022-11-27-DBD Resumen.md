@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 🤖 Diseño de Base de Datos Resumen
-subtitle: Fui haciendo los parciales para estudiar porque andaba corto de tiempo
 cover-img: /assets/img/PortadasEditadas/dataBase.png
 thumbnail-img: /assets/img/logos/baseDeDato.png
 share-img: /assets/img/PortadasEditadas/dataBase.png
