@@ -2,9 +2,9 @@
 layout: post
 title: 🛠 Ingenieria de software Resumen 📋
 subtitle: Parciales resueltos de la cursada
-cover-img: /assets/img/PortadasEditadas/Ingenieria.png
+cover-img: /assets/img/PortadasEditadas/IngenieriaNueva.png
 thumbnail-img: /assets/img/logos/Portada.png
-share-img: /assets/img/PortadasEditadas/Ingenieria.png
+share-img: /assets/img/PortadasEditadas/IngenieriaNueva.png
 tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 ---
 
