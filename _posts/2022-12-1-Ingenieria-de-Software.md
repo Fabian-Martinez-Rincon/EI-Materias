@@ -7,16 +7,6 @@ share-img: /assets/img/PortadasEditadas/IngenieriaNueva.png
 tags: [Ingenieria de software 1, Historias de usuario, Casos de Uso]
 ---
 
-## Trayhardeando la tercera fecha
-
-- [La strat CU](#la-strat-casos-de-uso)
-- [La strat HU](#la-start-historias-de-usuario)
-- [Parcial Primera Fecha](#parcial-primera-fecha)
-- [Parcial Segunda Fecha](#parcial-segunda-fecha)
-
-
-# La Strat Casos de uso
-
 - Tenemos que poner el cuadrado
 - Las cosas que interactuan directamente con el sistema
 - Si tengo el `actor 2` debajo del `actor 1` significa que el `actor 2` puede hacer todo lo que hace el `actor 1`, mas las cosas que puede hacer el `actor 2`
