@@ -8,8 +8,6 @@ share-img: /assets/img/PortadasEditadas/sql.jpg
 tags: [DBD, Base de datos, logico, fisico]
 ---
 
-
-
 ### ``Indice``
 - [Conceptual](#conceptual)
     - [Parcial](#parcial-conceptual)
@@ -20,7 +18,6 @@ tags: [DBD, Base de datos, logico, fisico]
     - [Parcial Algebra y Sql](#parcial-algebra-y-sql)
 
 ## ``Conceptual``
-
 
 ### Parcial Conceptual
 
