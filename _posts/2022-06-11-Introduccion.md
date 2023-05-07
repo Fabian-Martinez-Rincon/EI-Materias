@@ -20,3 +20,10 @@ Readme con apuntes, prácticas y códigos relacionados a la UNLP informática. P
 | 4 | Diseño de Bases de Datos <br> Ingeniería de Software 1 <br> 	Introducción a los Sistemas Operativos <br> Orientación a Objetos 1 <br> Taller de lecto-comprensión y Traducción en Inglés  | DBD <br> IS1 <br> ISO <br> OO1 <br> TTI |
 | 5 | Conceptos y Paradigmas de Lenguajes de Programación <br> Ingeniería de Software 2 <br> Matemática 3 <br> Orientación a Objetos 2 | CPLP <br> IS2 <br> MAT3 <br> OO2 |
 | 6 | Bases de Datos 1 <br> Computabilidad y Complejidad <br> Programación Concurrente <br> Proyecto de Software <br> Redes y Comunicaciones | BD1 <br> CC <br> PC <br> PS <br> RC |
+
+## 🙌 Miembros
+
+El discord cuenta con variedad de canales e información para que cada persona pueda compartir sus ejercicios o consultar dudas sobre temas informaticos
+
+<p align="center">
+<iframe src="https://discord.com/widget?id=1075765074565812295&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
