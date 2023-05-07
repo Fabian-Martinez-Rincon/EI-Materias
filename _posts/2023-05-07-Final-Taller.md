@@ -12,7 +12,7 @@ En este resumen voy a poner codigo de R-Info y de Pascal ya que son los temas ma
 
 ### Imperativo
 
-Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez que el enunciado nos solicite retornar un vector ordenado por x campo. Solo hace falta aprenderse uno de los dos
+Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez que el enunciado nos solicite retornar un vector ordenado por x campo. Con aprenderse uno de los dos estamos bien (a mi me gusta mas el de selección)
 
 <table><tr><td>Selección</td><td>Inserción</td></tr><tr><td>
 
@@ -62,3 +62,6 @@ Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez
 {% endhighlight %}
 </td></tr>
 </table>
+
+En el de **Selección** tenemos dos for anidados, dentro un if para hacer el ordenamiento donde i y j son las posiciones que recorremos y p seria auxiliar para el intercambio. El primer for de de 1 hasta dimL-1 y el segundo for es de i+1 hasta DimL
+
