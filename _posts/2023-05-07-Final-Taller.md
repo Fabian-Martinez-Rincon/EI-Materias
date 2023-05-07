@@ -16,7 +16,7 @@ Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez
 
 <table><tr><td>Selección</td><td>Inserción</td></tr><tr><td>
 
-```pascal
+{% highlight pascal linenos %}
 Procedure Seleccion ( var v: vector; dimL: Integer );
 var 
     i, j, p: Integer;
@@ -33,7 +33,9 @@ begin
         v[ i ] := item;
     end;
 end;
-```
+{% endhighlight %}
+
+
 
 </td><td>
 
