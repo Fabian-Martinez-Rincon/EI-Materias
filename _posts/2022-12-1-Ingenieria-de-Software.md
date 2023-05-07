@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🛠 Ingenieria de software Resumen 📋
+title: 🛠 Ingenieria de software Parciales 📋
 cover-img: /assets/img/PortadasEditadas/IngenieriaNueva.png
 thumbnail-img: /assets/img/logos/Portada.png
 share-img: /assets/img/PortadasEditadas/IngenieriaNueva.png
