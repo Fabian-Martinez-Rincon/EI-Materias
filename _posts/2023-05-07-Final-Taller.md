@@ -99,7 +99,7 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
 <tr>
 <td>
  
-```pascal
+{% highlight pascal %}
 Procedure enOrden ( a : arbol );
 begin //Input 1,22,3,44,5,6,7,2,0
     if ( a<> nil ) then begin
@@ -108,12 +108,12 @@ begin //Input 1,22,3,44,5,6,7,2,0
         enOrden (a^.HD);
     end;
 end;//1,2,3,5,6,7,22,44
-```
+{% endhighlight %}
 </td>
 <td>
  
 
-```pascal
+{% highlight pascal %}
 Procedure preOrden ( a : arbol );
 begin //Input 1,22,3,4,55,67,7,0
     if ( a<> nil ) then begin
@@ -122,11 +122,11 @@ begin //Input 1,22,3,4,55,67,7,0
         preOrden (a^.HD);
     end;
 end;//Output 1,22,3,4,7,55,67
-```
+{% endhighlight %}
 </td>
  <td>
   
-```pascal
+{% highlight pascal %}
 Procedure posOrden ( a : arbol );
 begin //Input 1,22,2,44,6,77,5,4,3,0
     if ( a<> nil ) then begin
@@ -135,7 +135,7 @@ begin //Input 1,22,2,44,6,77,5,4,3,0
         write (a^.dato);
     end;
 end;//Output 22,2,6,5,4,3,44,77,1
-```
+{% endhighlight %}
 </td>
 </tr>
  
