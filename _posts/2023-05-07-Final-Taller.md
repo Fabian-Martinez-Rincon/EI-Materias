@@ -91,11 +91,7 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
 
 
 <table>
-<tr>
-<td> En Orden </td> <td> Pos Orden </td><td> Pre Orden </td>
-</tr>
-<tr>
-<td>
+<tr><td> En Orden </td> <td> Pos Orden </td><td> Pre Orden </td></tr><tr><td>
  
 {% highlight pascal %}
   Procedure enOrden ( a : arbol );
@@ -108,8 +104,7 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
   end;//1,2,3,5,6,7,22,44
 {% endhighlight %}
 
-</td>
-<td>
+</td><td>
 
 {% highlight pascal %}
   Procedure preOrden ( a : arbol );
