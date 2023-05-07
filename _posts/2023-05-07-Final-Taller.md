@@ -68,7 +68,7 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
 
 ### Crear
 
-{% highlight2 pascal %}
+{% highlight pascal %}
   Procedure crear (var A:arbol; num:integer);
   Begin
     if (A = nil) then
@@ -95,7 +95,7 @@ Si el arbol esta vacio, agregamos el elemento de forma normal, en caso de que no
 <table>
 <tr><td> En Orden </td> <td> Pos Orden </td><td> Pre Orden </td></tr><tr><td>
  
-{% highlight2 pascal %}
+{% highlight pascal %}
 Procedure enOrden ( a : arbol );
 begin //Input 1,22,3,44,5,6,7,2,0
   if ( a<> nil ) then begin
