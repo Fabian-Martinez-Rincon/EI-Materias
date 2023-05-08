@@ -208,3 +208,11 @@ Y con esto terminamos imperativo
 ---
 
 # Concurrente
+
+Este lenguaje es horrible pero no queda otra que aprenderlo para el final, igual es una boludes.
+
+La estructura es la siguiente
+
+- programa nombre
+- procesos (son las funciones E valor ES referencia)
+- robots
