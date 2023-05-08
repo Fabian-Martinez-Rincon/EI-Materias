@@ -177,3 +177,28 @@ begin
 end;
 ```
 
+Este seria el minimo para el acumulador, es basicamente lo mismo pero con mas campos.
+
+```pascal
+procedure minimo(var v:vector; var x:venta_nueva);
+var 
+  i, pos : integer;
+begin
+	x.codigo := 9999;
+	pos := -1;
+	for i := 1 to cantidad do 
+		if (v[i] <> NIL) and (v[i]^.dato.codigo <= x.codigo) then 
+		begin
+			pos := i;	
+			x.codigo := v[i]^.dato.codigo;
+            x.cant:=v[i]^.dato.cantidad_vendida;	
+		end;
+
+	if (pos <> -1) then
+	begin
+		x.codigo := v[pos]^.dato.codigo;
+        x.cant := v[pos]^.dato.cantidad_vendida; 
+		v[pos] := v[pos]^.sig; 
+	end;
+end;
+```
