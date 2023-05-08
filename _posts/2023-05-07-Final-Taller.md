@@ -86,7 +86,6 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
   End;
 ```
 
-
 Si el arbol esta vacio, agregamos el elemento de forma normal, en caso de que no, preguntamos si el elemento es menor que el dato actual y lo llamamos recursivamente con el **Hijo Izquierdo** en caso contrario, lo mandamos con el **Hijo Derecho**
 
 ### Imprimir
@@ -109,6 +108,8 @@ end;
 //1,2,3,5,6,7,22,44
 ```
 
+---
+
 ### Merge
 
 En resumen, agarramos n listas/arreglos que esten ordenados por el mismo criterio y los volvemos uno solo. Tenemos dos tipos de merge, el merge común, el mergue acumulador, que es lo mismo que el normal pero con un corte de control.
@@ -130,6 +131,32 @@ begin
 end;
 ```
 Recibimos  un vector de listas y este al estar ordenado, lo agregamos a la lista nueva (Vamos a tener que recordar el agregar de listas)
+
+#### Merge Acumulador
+
+```pascal
+procedure merge(var l :lista_nueva;v:vector) ;
+var
+	ult : lista_nueva;
+	min, actual : venta_nueva;
+begin
+	minimo(v,min);	
+	while (min.codigo <> 9999) do	
+	begin
+		actual.cant := 0;	
+		actual.codigo := min.codigo;	
+		while (min.codigo <> 9999) and (min.codigo = actual.codigo) do begin
+			actual.cant:= actual.cant + min.cant;	
+			minimo(v,min);	
+		end;
+		AgregarAlFinal2(l,ult,actual);	
+	end;
+end;
+```
+
+---
+
+### Los minimos
 
 ```pascal
 procedure minimo(var v : vector; var min : string);
