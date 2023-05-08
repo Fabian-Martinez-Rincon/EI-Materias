@@ -92,9 +92,9 @@ Si el arbol esta vacio, agregamos el elemento de forma normal, en caso de que no
 ### Imprimir
 
 Tenemos tres formas de imprimir, con aprender una estamos bien
-- En Orden El imprimir en el medio
-- Pos Orden El imprimir al principio
-- Pre Orden El imprimir al final
+- **En Orden** El imprimir en el medio
+- **Pos Orden** El imprimir al principio
+- **Pre Orden** El imprimir al final
 
 ```pascal
 //Input 1,22,3,44,5,6,7,2,0
@@ -111,5 +111,41 @@ end;
 
 ### Merge
 
-En resumen, agarramos n listas/arreglos que esten ordenados por el mismo criterio y los volvemos uno solo.
+En resumen, agarramos n listas/arreglos que esten ordenados por el mismo criterio y los volvemos uno solo. Tenemos dos tipos de merge, el merge común, el mergue acumulador, que es lo mismo que el normal pero con un corte de control.
 
+#### Merge Normal
+
+```pascal
+procedure merge(v:vector; var l:lista);
+var
+   min:string;
+   ult:lista;
+begin
+	minimo(v,min);
+	while (min <> 'ZZZ') do 
+		begin
+			AgregarAlFinal2(l,ult,min);
+			minimo(v,min);
+		end;
+end;
+```
+Recibimos  un vector de listas y este al estar ordenado, lo agregamos a la lista nueva (Vamos a tener que recordar el agregar de listas)
+
+```pascal
+procedure minimo(var v : vector; var min : string);
+var
+   pos, i : integer;
+begin
+	min := 'ZZZ';
+	pos := -1;
+	for i:= 1 to dimF do					
+		if (v[i] <> nil) and (v[i]^.dato <= min) then begin
+			min := v[i]^.dato; 
+			pos := i;	
+		end;
+	if (pos <> -1) then  
+		v[pos] := v[pos]^.sig;
+end;
+```
+
+Y tambien tenemos este modulo que 
