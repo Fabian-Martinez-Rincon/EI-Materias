@@ -205,4 +205,6 @@ end;
 
 Y con esto terminamos imperativo
 
+---
+
 # Concurrente
