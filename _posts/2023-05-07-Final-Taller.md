@@ -196,9 +196,9 @@ begin
 
 	if (pos <> -1) then
 	begin
-		x.codigo := v[pos]^.dato.codigo;
-        x.cant := v[pos]^.dato.cantidad_vendida; 
-		v[pos] := v[pos]^.sig; 
+      x.codigo := v[pos]^.dato.codigo;
+      x.cant := v[pos]^.dato.cantidad_vendida; 
+      v[pos] := v[pos]^.sig; 
 	end;
 end;
 ```
