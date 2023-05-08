@@ -158,6 +158,8 @@ end;
 
 ### Los minimos
 
+Tenemos este minimo que es para el merge normal. Inicializamos un minimo, recorremos la primera posición de cada lista en el arreglo para quedarnos con la posición, y al final de todo avanzamos en esa posición
+
 ```pascal
 procedure minimo(var v : vector; var min : string);
 var
@@ -175,4 +177,3 @@ begin
 end;
 ```
 
-Y tambien tenemos este modulo que 
