@@ -68,7 +68,7 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
 
 ### Crear
 
-{% highlight pascal %}
+```pascal
   Procedure crear (var A:arbol; num:integer);
   Begin
     if (A = nil) then
@@ -84,52 +84,32 @@ Podriamos mandarle a recursión pero eso con una repasada estamos bien, aca lo i
       else 
         crear(A^.HD,num)   
   End;
-{% endhighlight %}
+```
 
 
 Si el arbol esta vacio, agregamos el elemento de forma normal, en caso de que no, preguntamos si el elemento es menor que el dato actual y lo llamamos recursivamente con el **Hijo Izquierdo** en caso contrario, lo mandamos con el **Hijo Derecho**
 
 ### Imprimir
 
+Tenemos tres formas de imprimir, con aprender una estamos bien
+- En Orden El imprimir en el medio
+- Pos Orden El imprimir al principio
+- Pre Orden El imprimir al final
 
-<table>
-<tr><td> En Orden </td> <td> Pos Orden </td><td> Pre Orden </td></tr><tr><td>
- 
-{% highlight pascal %}
-Procedure enOrden ( a : arbol );
-begin //Input 1,22,3,44,5,6,7,2,0
-  if ( a<> nil ) then begin
-    enOrden (a^.HI);
-    write (a^.dato,'|');
-    enOrden (a^.HD);
+```pascal
+//Input 1,22,3,44,5,6,7,2,0
+Procedure enOrden( a:arbol );
+begin 
+  if (a <> nil) then begin
+    enOrden(a^.HI);
+    write(a^.dato,'|');
+    enOrden(a^.HD);
   end;
-end;//1,2,3,5,6,7,22,44
-{% endhighlight %}
+end;
+//1,2,3,5,6,7,22,44
+```
 
-</td><td>
+### Merge
 
-{% highlight pascal %}
-Procedure preOrden ( a : arbol );
-begin //Input 1,22,3,4,55,67,7,0
-  if ( a<> nil ) then begin
-    write (a^.dato,'|');   
-    preOrden (a^.HI);
-    preOrden (a^.HD);
-  end;
-end;//Output 1,22,3,4,7,55,67
-{% endhighlight %}
+En resumen, agarramos n listas/arreglos que esten ordenados por el mismo criterio y los volvemos uno solo.
 
-</td><td>
-  
-{% highlight pascal %}
-Procedure posOrden ( a : arbol );
-begin //Input 1,22,2,44,6,77,5,4,3,0
-  if ( a<> nil ) then begin
-    preOrden (a^.HI);
-    preOrden (a^.HD);
-    write (a^.dato);
-  end;
-end;//Output 22,2,6,5,4,3,44,77,1
-{% endhighlight %}
-
-</td></tr></table>
