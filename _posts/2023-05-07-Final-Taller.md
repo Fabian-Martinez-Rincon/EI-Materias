@@ -9,6 +9,8 @@ tags: [Taller De Programación, Java, Pascal, R-INFO]
 
 En este resumen voy a poner codigo de R-Info y de Pascal ya que son los temas mas "dificiles" de aprobar sin estudiar. Si necesitas los recursos de la materia, los podes encontrar en este [**repositorio**](https://github.com/Fabian-Martinez-Rincon/Taller-de-Programacion)
 
+Para Para, antes de aprender lo practico tenemos que leer bien las diapositivas que estan en el repositorio de arriba, rendi el final a principios del 2023 y me dijo que el practico es de 10 pero que no pegue una en la teoria y por eso desaprobe esa fecha. MUCHO CUIDADO 
+
 # Imperativo
 
 Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez que el enunciado nos solicite retornar un vector ordenado por x campo. Con aprenderse uno de los dos estamos bien (a mi me gusta mas el de selección)
