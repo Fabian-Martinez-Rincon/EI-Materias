@@ -17,11 +17,12 @@ author: MITH arg
 
 navbar-links:
   Inicio: "/"
-  1️⃣ Primero: "primero"
-  2️⃣ Segundo: "segundo"
-  3️⃣ Tercero: "tercero"
-  MITH arg: "https://mith-arg.github.io/mith-arg/"
-
+  Materias:
+    - 1️⃣ Primero: "primero"
+    - 2️⃣ Segundo: "segundo"
+    - 3️⃣ Tercero: "tercero"
+  Portfolio: "https://fabianmartinez.vercel.app/"
+  MITH: "https://mith-arg.github.io/mith-arg/"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
