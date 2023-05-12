@@ -831,6 +831,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 table {
   padding: 0;
   filter: invert(100%);
+  color: #000;
 }
 table tr {
   border-top: 1px solid #cccccc;
