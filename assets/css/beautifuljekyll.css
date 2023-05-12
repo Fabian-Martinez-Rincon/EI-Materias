@@ -836,6 +836,7 @@ table tr {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
+  opacity: 0.5;
 }
 table tr:nth-child(2n) {
   background-color: #f8f8f8;
