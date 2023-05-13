@@ -831,10 +831,11 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 table {
   padding: 0;
-  background-color: transparent;
+  color: #000;
+  background-color:#e0b400;
 }
 table tr {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #000000;
   background-color: transparent;
   margin: 0;
   padding: 0;
@@ -869,7 +870,7 @@ table tr td :last-child {
 code {
   padding: 0.125rem 0.25rem;
   color: #c7254e;
-  background-color: #606060;
+  background-color: #f9f2f4;
   border-radius: 0.25rem;
 }
 
