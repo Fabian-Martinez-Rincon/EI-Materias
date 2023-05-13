@@ -13,4 +13,4 @@ Readme con apuntes, prácticas y códigos relacionados a la UNLP informática. P
 
 ### Web
 
-![image](https://user-images.githubusercontent.com/55964635/236698027-790d557f-56ff-4bd9-8172-48e968e957db.png)
+![image](https://github.com/Fabian-Martinez-Rincon/CPLP/assets/55964635/35e75526-6a30-4201-bad9-415e26847494)
