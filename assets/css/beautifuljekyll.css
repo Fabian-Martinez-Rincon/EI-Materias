@@ -834,7 +834,7 @@ table {
   padding: 0;
   color: #000;
   background-color:#afafaf;
-  font-weight: bold;
+
 }
 table tr {
   border-top: 1px solid #000000;
@@ -846,7 +846,7 @@ table tr:nth-child(2n) {
   background-color: transparent;
 }
 table tr th {
-  font-weight: bold;
+
   border: 1px solid #000000;
   text-align: left;
   margin: 0;
