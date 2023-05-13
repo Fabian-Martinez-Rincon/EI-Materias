@@ -120,18 +120,18 @@ post_search: true
 #footer-hover-col: "#0085A1"
 
 navbar-col: "#161B22"
-navbar-text-col: "#E6EDF3"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#808080"
 
 page-col: "#0D1117"
 
-text-col: "#E6EDF3"
+text-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 
 footer-col: "#161B22"
-footer-text-col: "#E6EDF3"
-footer-link-col: "##E6EDF3"
+footer-text-col: "#FFFFFF"
+footer-link-col: "##FFFFFF"
 footer-hover-col: "#0085A1"
 
 
