@@ -17,11 +17,11 @@ author: MITH arg
 
 navbar-links:
   Inicio: "/"
-  Materias:
+  📚 Materias:
     - 1️⃣ Primero: "primero"
     - 2️⃣ Segundo: "segundo"
     - 3️⃣ Tercero: "tercero"
-  Portfolio: "https://fabianmartinez.vercel.app/"
+  💼 Portfolio: "https://fabianmartinez.vercel.app/"
   MITH: "https://mith-arg.github.io/mith-arg/"
 # --- Logo --- #
 
