@@ -4,6 +4,7 @@ layout: null
 
 /*@import url("pygment_highlights.css");*/
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap');
+
 /* --- General --- */
 
 html {
@@ -832,7 +833,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 table {
   padding: 0;
   color: #000;
-  background-color:#e0b400;
+  background-color:#afafaf;
+  font-weight: bold;
 }
 table tr {
   border-top: 1px solid #000000;
