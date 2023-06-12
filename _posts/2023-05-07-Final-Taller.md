@@ -15,7 +15,8 @@ Para Para, antes de aprender lo practico tenemos que leer bien las diapositivas 
 
 Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez que el enunciado nos solicite retornar un vector ordenado por x campo. Con aprenderse uno de los dos estamos bien (a mi me gusta mas el de selección)
 
-<table><tr><td>Selección</td><td>Inserción</td></tr><tr><td>
+## Selección
+
 
 {% highlight pascal %}
   Procedure Seleccion (var v:vector; dimL:Integer);
@@ -37,7 +38,8 @@ Primero damos la ordenación de vectores. En este caso, lo vamos a usar cada vez
   end;
 {% endhighlight %}
 
-</td><td>
+## Inserción
+
 
 {% highlight pascal %}
   Procedure Insercion (var v:vector; dimL:Integer);
