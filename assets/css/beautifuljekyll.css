@@ -896,11 +896,7 @@ pre {
   margin: 0;
 }
 
-/*background-image: linear-gradient( rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
-  background-size: auto 3em;
-  background-position-y: 0.625rem;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-left: 0.4375rem solid #444;*/
+
 
 .highlight > pre {
   
