@@ -6,3 +6,19 @@ thumbnail-img: /assets/img/logos/oo1.png
 share-img: /assets/img/PortadasEditadas/huCu.png
 tags: [Objetos 1, Java]
 ---
+
+## Primer Parcial
+
+![Primer Parcial](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fbf0355e-d595-4051-aa45-2c4873033002)
+
+---
+
+## Primer Recuperatorio
+
+![Primer Recuperatorio](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/10f819b7-d94a-4a01-9e91-3e5ec9312f64)
+
+---
+
+## Segundo Recuperatorio
+
+![Segundo Recuperatorio](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c2207c29-e8c7-483e-9852-7f0eec6479ad)
