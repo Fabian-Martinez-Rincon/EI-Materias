@@ -1002,7 +1002,7 @@ pre {
 }
 
 .blog-post hr {
-  max-width: 25%;
+  /*max-width: 25%;*/
   border-width: 0.25rem;
   border-radius: 0.1875rem;
   border-color: #808080;
