@@ -118,12 +118,12 @@ post_search: true
 #footer-hover-col: "#0085A1"
 
 navbar-col: "#eaeaea"
-navbar-text-col: "#FFFFFF"
+navbar-text-col: "#000000"
 navbar-border-col: "#808080"
 
 page-col: "#FFFFFF"
 
-text-col: "#FFFFFF"
+text-col: "#000000"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 
