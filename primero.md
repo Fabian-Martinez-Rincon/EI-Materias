@@ -14,7 +14,7 @@ tags: [EPA,CADP,OC,Taller de Programacion, AC]
 
 
 
-<a href="https://github.com/Fabian-Martinez-Rincon/EPA"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Fabian-Martinez-Rincon&repo=EPA&theme=react&bg_color=2a2a2b&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="dice-roll-albert-ext"></a>
+<a href="https://github.com/Fabian-Martinez-Rincon/EPA"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Fabian-Martinez-Rincon&repo=EPA&bg_color=eaeaea&title_color=00000&icon_color=000000&hide_border=true&show_icons=true" alt="dice-roll-albert-ext"></a>
 
 
 <!--2a2a2b-->
