@@ -127,7 +127,7 @@ hover-col: "#0085A1"
 footer-col: "#565656"
 footer-text-col: "#FFFFFF"
 footer-link-col: "##FFFFFF"
-footer-hover-col: "#0085A1"
+footer-hover-col: "#000000"
 
 
 #navbar-col: "#FFFFFF"
