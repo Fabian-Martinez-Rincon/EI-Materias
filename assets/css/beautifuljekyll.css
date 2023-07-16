@@ -899,7 +899,6 @@ pre {
 
 .highlight > pre {
   background-color: #eeeeeea8;
-  filter: invert(100%);
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
