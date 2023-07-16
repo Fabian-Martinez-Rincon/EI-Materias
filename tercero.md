@@ -11,7 +11,7 @@ tags: [OO2]
 
 
 <h4>Orientación a Objetos 2 (OO2)</h4>
-<a href="https://github.com/guadaevequoz/COO2-2022"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=guadaevequoz&repo=OO2-2022&bg_color=eaeaea&title_color=7F60D5&icon_color=000000&hide_border=true&show_icons=true" alt="custom-icon-badges"></a><a href="https://github.com/agusrnfr/OO2"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=agusrnfr&repo=OO2&bg_color=eaeaea&title_color=F85D7F&icon_color=000000&hide_border=true&show_icons=true" alt="custom-icon-badges"></a>
+<a href="https://github.com/guadaevequoz/OO2-2022"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=guadaevequoz&repo=OO2-2022&bg_color=eaeaea&title_color=7F60D5&icon_color=000000&hide_border=true&show_icons=true" alt="custom-icon-badges"></a><a href="https://github.com/agusrnfr/OO2"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=agusrnfr&repo=OO2&bg_color=eaeaea&title_color=F85D7F&icon_color=000000&hide_border=true&show_icons=true" alt="custom-icon-badges"></a>
 
 
 <h4>	Conceptos y Paradigmas de Lenguajes de Programación (CPLP)</h4>
