@@ -26,5 +26,9 @@ tags: [OO2]
 <h4>	Programación Concurrente (PC)</h4>
 <a href="https://github.com/Fabian-Martinez-Rincon/Programacion-Concurrente"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=Fabian-Martinez-Rincon&repo=Programacion-Concurrente&theme=react&bg_color=1F223E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="custom-icon-badges"></a><a href="https://github.com/guadaevequoz/PC-2022"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=guadaevequoz&repo=PC-2022&theme=react&bg_color=1F223E&title_color=7F60D5&icon_color=F8D866&hide_border=true&show_icons=false" alt="custom-icon-badges"></a>
 
+<h4>	Proyecto de Software (PdS)</h4>
+<a href="https://github.com/Fabian-Martinez-Rincon/Proyecto-de-Software"><img width="282" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin?username=Fabian-Martinez-Rincon&repo=Proyecto-de-Software&theme=react&bg_color=1F223E&title_color=00000&icon_color=F8D866&hide_border=true&show_icons=false" alt="custom-icon-badges"></a><
+
+
 </div>
 
