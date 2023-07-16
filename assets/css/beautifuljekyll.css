@@ -49,7 +49,7 @@ h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
 a {
-  color: {{ site.link-col | default: "#008AFF" }};
+  color: {{ site.link-col | default: "#000000" }};
 }
 a:hover,
 a:focus {
