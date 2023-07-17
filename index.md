@@ -1,7 +1,7 @@
 ---
 layout: home
 title: EI-Materias
-subtitle: Cualquiera puede subir sus repositorios, solo tiene que mandarme un mail o hablarme por discord.
+subtitle: 🐨 Cualquiera puede subir sus repositorios, solo tiene que mandarme un mail o hablarme por discord.
 ---
 
 ## 🧉 Blogs informativos sobre materias
