@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 3️⃣ Tercer Año
-subtitle: Materias
+subtitle: 🐨 Cualquiera puede subir sus repositorios, solo tiene que mandarme un mail o hablarme por discord.
 tags: [OO2]
 ---
 

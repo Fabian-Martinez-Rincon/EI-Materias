@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2️⃣ Segundo Año
-subtitle: Materias
+subtitle: 🐨 Cualquiera puede subir sus repositorios, solo tiene que mandarme un mail o hablarme por discord.
 tags: [FOD,AYED,Seminarios de , Python,C, JavaScript]
 ---
 

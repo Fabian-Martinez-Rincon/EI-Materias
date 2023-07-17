@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 1️⃣ Primer Año
-subtitle: Materias
+subtitle: 🐨 Cualquiera puede subir sus repositorios, solo tiene que mandarme un mail o hablarme por discord.
 tags: [EPA,CADP,OC,Taller de Programacion, AC]
 ---
 
