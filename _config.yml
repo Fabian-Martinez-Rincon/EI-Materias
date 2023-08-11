@@ -16,6 +16,7 @@ author: MITH arg
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Introducción: "Introduccion"
   1️⃣ Primero: "primero"
   2️⃣ Segundo: "segundo"
   3️⃣ Tercero: "tercero"
