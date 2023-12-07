@@ -5,6 +5,7 @@ cover-img: /assets/img/PortadasEditadas/dataBase.png
 thumbnail-img: /assets/img/logos/baseDeDato2.gif
 share-img: /assets/img/PortadasEditadas/dataBase.png
 tags: [DBD, Base de datos, logico, fisico]
+
 ---
 
 ### ``Indice``
