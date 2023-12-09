@@ -112,12 +112,17 @@ Tenemos los datos relevantes con colores que seria **denuncia** que contiene lo 
 Bien una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 
 #### Punto A
-- Al decirnos que estan agrupadas por categoria nos indica que es un merge.
+- Al decirnos que estan agrupadas por categoria nos indica que es un vector de listas (un vector de 6 agrupa las denuncias por categoria).
 - Tambien nos dice que estan ordenadas por numero de calle, por lo que usaremos el proceso de **InsertarOrdenado**
 
 #### Punto B
 
+- Al decir que recibe un vector de listas y devuelve una sola lista nos indica que tenemos que usar un **merge**
+- Cuando nos dice que para cada nro de calle en especifica, ya sabemos que es un **merge acumulador** (un merge normal pero con un corte de control)
+- Para los merges acumuladores es recomendable crear una estructura de datos aparte, que tenga los datos solicidatos, en este caso, **nro de calle**, **cantidad total de denuncias** y **cantidad de denuncias realizadas en el mes de julio**
 
+#### Punto C
+Bien, en este caso, yo lo que hago siempre es hacer el module en forma iterativa, para probar y despues lo paso a recursivo. Basicamente cambias el **while** por el **if** y despues llavas cambias en donde se incrementa la variable, por una llamada a la funcion con el incremento o modificación correspondiente.
 
 
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/749e071a-179f-4db5-97f3-1c2ede2e5fb8)
