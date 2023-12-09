@@ -98,4 +98,21 @@ Bien, una vez que sabemos que funcionan los codigos, vamos a resolver el siguien
 
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fa8d3aea-b55f-4814-b3bc-3afb4082798e)
 
+Tenemos los datos relevantes con colores que seria **denuncia** que contiene lo siguiente:
+
+- Categoria de denuncia 1..6
+- DNI
+- Direccion
+    - Numero de calle
+    - Numero de altura
+- Mes
+- Dia
+- Hora
+
+Bien una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
+
+#### Punto A
+- Al decirnos que estan agrupadas por categoria nos indica que es un merge.
+- Tambien nos dice que estan ordenadas por numero de calle, por lo que usaremos el procesos de **InsertarOrdenado**
+
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/749e071a-179f-4db5-97f3-1c2ede2e5fb8)
