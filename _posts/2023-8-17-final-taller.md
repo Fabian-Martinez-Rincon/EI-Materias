@@ -18,9 +18,9 @@ Si te toca este final, tenes 2 opciones nada más.
 - Arboles
 
 Para ambos temas te tenes que saber si o si:
-- Insertar Ordenado
 - Agregar Adelante
 - Agregar Atras
+- Insertar Ordenado
 
 #### Agregar Adelante
 
@@ -38,7 +38,6 @@ End;
 
 #### Agregar Atras
 
-
 ```pascal
 procedure AgregarAlFinal(var l,ult:lista;x:integer); 
 var  
@@ -54,6 +53,49 @@ begin
     ult := nue;
 end;
 ```
-</td></tr>
-</table>
 
+#### Insertar Ordenado
+
+```pascal
+Procedure InsertarElemento ( var pri: lista; x: Integer);
+var 
+    ant, nue, act: lista;
+begin
+    new (nue);
+    nue^.dato := x;
+    act := pri;
+    ant := pri;
+    while (act<>NIL) and (act^.dato < x) do 
+    begin
+        ant := act;
+        act := act^.sig ;
+    end;
+    if (ant = act)  then 
+        pri := nue   
+    else  
+        ant^.sig  := nue; 
+    nue^.sig := act ;
+end;
+```
+
+Mira, para probar los codigos yo lo que hago es hacer una lista de numeros enteros y, insertando lo que quiera probar y despues imprimo la lista para ver si esta bien. 
+
+```pascal
+procedure ImprimirLista (L:lista);
+begin
+    while (L <> nil) do 
+    begin
+        writeln (L^.dato);
+        L:= L^.sig;
+    end;
+end;
+```
+
+Y con esto nos aseguramos de tener todo en orden.
+
+
+Bien, una vez que sabemos que funcionan los codigos, vamos a resolver el siguiente final.
+
+![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fa8d3aea-b55f-4814-b3bc-3afb4082798e)
+
+![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/749e071a-179f-4db5-97f3-1c2ede2e5fb8)
