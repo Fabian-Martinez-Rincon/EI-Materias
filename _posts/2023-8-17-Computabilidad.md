@@ -22,11 +22,7 @@ Para ambos temas te tenes que saber si o si:
 - Agregar Adelante
 - Agregar Atras
 
-#### Basicos
-
-<table>
-<tr><td>Agregar Adelante</td><td>Agregar Atras</td></tr>
-<tr><td>
+#### Agregar Adelante
 
 ```pascal
 Procedure AgregarAdelante (var L:lista; x:integer);
@@ -39,20 +35,22 @@ Begin
     L:=nue;
 End;    
 ```
-</td><td>
+
+#### Agregar Atras
+
 
 ```pascal
-procedure AgregarAlFinal2(var pri,ult:lista;x:integer); 
+procedure AgregarAlFinal(var l,ult:lista;x:integer); 
 var  
     nue : lista;
 begin 
     new (nue);
     nue^.dato:= x;
     nue^.sig := NIL;
-    if pri <> Nil then 
+    if l <> Nil then 
         ult^.sig := nue
     else 
-        pri := nue;
+        l := nue;
     ult := nue;
 end;
 ```
