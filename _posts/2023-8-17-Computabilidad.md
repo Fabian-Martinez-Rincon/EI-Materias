@@ -21,3 +21,41 @@ Para ambos temas te tenes que saber si o si:
 - Insertar Ordenado
 - Agregar Adelante
 - Agregar Atras
+
+#### Basicos
+
+<table>
+<tr><td>Agregar Adelante</td><td>Agregar Atras</td></tr>
+<tr><td>
+
+```pascal
+Procedure AgregarAdelante (var L:lista; x:integer);
+Var 
+    nue:Lista;
+Begin  
+    New(nue);  
+    nue^.datos:=x;  
+    nue^.sig:=L;  
+    L:=nue;
+End;    
+```
+</td><td>
+
+```pascal
+procedure AgregarAlFinal2(var pri,ult:lista;x:integer); 
+var  
+    nue : lista;
+begin 
+    new (nue);
+    nue^.dato:= x;
+    nue^.sig := NIL;
+    if pri <> Nil then 
+        ult^.sig := nue
+    else 
+        pri := nue;
+    ult := nue;
+end;
+```
+</td></tr>
+</table>
+
