@@ -113,6 +113,11 @@ Bien una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 
 #### Punto A
 - Al decirnos que estan agrupadas por categoria nos indica que es un merge.
-- Tambien nos dice que estan ordenadas por numero de calle, por lo que usaremos el procesos de **InsertarOrdenado**
+- Tambien nos dice que estan ordenadas por numero de calle, por lo que usaremos el proceso de **InsertarOrdenado**
+
+#### Punto B
+
+
+
 
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/749e071a-179f-4db5-97f3-1c2ede2e5fb8)
