@@ -125,6 +125,7 @@ Bien una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 #### Punto C
 Bien, en este caso, yo lo que hago siempre es hacer el module en forma iterativa, para probar y despues lo paso a recursivo. Basicamente cambias el **while** por el **if** y despues llavas cambias en donde se incrementa la variable, por una llamada a la funcion con el incremento o modificación correspondiente.
 
+---
 
 ### Final Arboles
 
@@ -140,4 +141,12 @@ Tenemos **recital** con los siguientes datos
 Bien, una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 
 #### Punto A
-- En el momento que nos dice que tienen que estar en **una estructura que permite el recorrido optimo**
+- En el momento que nos dice que tienen que estar en **una estructura que permite el recorrido optimo** por **monto recaudado**, usamos un **arbol**
+
+#### Punto B
+
+- Mira, esta parte puede ser la menos intuitiva, ya que NO tenemos que recorrer el arbol completo, tenemos que recorrer las ramas, hasta estar en el rango de numeros
+- Tenemos que usar un **agregarAtras**, ya que el arbol al estar ordenado, mantenemos el orden.
+
+#### Punto C
+
