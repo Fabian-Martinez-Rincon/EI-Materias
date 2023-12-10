@@ -162,6 +162,5 @@ En todos los finales de objetos son mas o menos lo mismo, con resolver bien este
 
 > IMPORTANTE en este tipo de finales NO tenes collecciones, nos manejamos siempre con arrays
 
-![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/0848e396-6345-468e-97ec-265978b1b3d8)
-
+![Objetos](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/45f4d6a1-edba-4c42-9dfa-eb40fa405f33)
 
