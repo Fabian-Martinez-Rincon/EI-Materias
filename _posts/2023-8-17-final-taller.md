@@ -150,3 +150,4 @@ Bien, una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 
 #### Punto C
 
+- Aca simplemente hacemos el modulo iterativo, cambiamos el while por el if y despues cambiamos el incremento de la variable, por la llamada al proceso con el incremento como parametro.
