@@ -187,5 +187,6 @@ Lo mas importante es identificar los objetos con sus atributos y herencias que t
 - Partido Doble (Heredan de Partido)
     - 4 tenistas
 
-Una vez que definimos todos los tipos de datos.
+Una vez que definimos todos los tipos de datos. Empezamos a ver los puntos y definimos los metodos segun el objeto.
+- Cuando decimos que debe instanciarse con todos sus datos, nos referimos al constructor.
 
