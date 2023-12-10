@@ -99,6 +99,8 @@ Bien, una vez que sabemos que funcionan los codigos, vamos a resolver el siguien
 
 ### Final Merge Acumulador
 
+> En este final no me acordaba el insertar ordenado y el modulo recursivo del punto c, lo habia hecho mal
+
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fa8d3aea-b55f-4814-b3bc-3afb4082798e)
 
 Tenemos los datos relevantes con colores que seria **denuncia** que contiene lo siguiente:
@@ -131,6 +133,8 @@ Bien, en este caso, yo lo que hago siempre es hacer el module en forma iterativa
 
 ### Final Arboles
 
+> En este final tenia mal el recorrido del arbol, lo puse dos condicionales en la condicion base. (Y siempre va <> nil en la condicion base)
+
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/749e071a-179f-4db5-97f3-1c2ede2e5fb8)
 
 Tenemos **recital** con los siguientes datos
@@ -160,9 +164,11 @@ Bien, una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 
 En todos los finales de objetos son mas o menos lo mismo, con resolver bien este final creo que abarcas todos los temas de objetos.
 
-> IMPORTANTE en este tipo de finales NO tenes collecciones, nos manejamos siempre con arrays
+> Cuando rendi este final me dijieron que tenia un 10 en el practico, pero me fue mal en las preguntas teoricas.
 
 ![Objetos](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/45f4d6a1-edba-4c42-9dfa-eb40fa405f33)
+
+> IMPORTANTE en este tipo de finales NO tenes collecciones, nos manejamos siempre con arrays
 
 Lo mas importante es identificar los objetos con sus atributos y herencias que tenemos.
 
