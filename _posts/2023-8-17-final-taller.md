@@ -164,3 +164,22 @@ En todos los finales de objetos son mas o menos lo mismo, con resolver bien este
 
 ![Objetos](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/45f4d6a1-edba-4c42-9dfa-eb40fa405f33)
 
+Lo mas importante es identificar los objetos con sus atributos y herencias que tenemos.
+
+- Tenista
+    - Nombre
+    - Cantidad de Partidos Ganados
+    - Premios obtenidos en toda su carrera (un array de reales)
+- Partido
+    - Fecha (string)
+    - Lugar
+    - Resultado
+        - SetsEquipo1
+        - SetsEquipo2
+- Partido Single (Heredan de Partido) 
+    - 2 tenistas
+- Partido Doble (Heredan de Partido)
+    - 4 tenistas
+
+Una vez que definimos todos los tipos de datos.
+
