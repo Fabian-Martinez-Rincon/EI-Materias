@@ -4,12 +4,13 @@ title: 💀 Final Taller de Programación
 cover-img: /assets/img/PortadasEditadas/taller-portada.jpg
 thumbnail-img: /assets/img/logos/taller-logo2.gif
 share-img: /assets/img/PortadasEditadas/taller-portada.jpg
-tags: [Procesos, Memoria Principal, Memoria Virtual, Sistemas Operativos, Practicas, ISO]
+tags: [Taller, Programacion, Final, Pascal, Arboles, Merge, MergeAcumulador]
 ---
+
+En esta página voy a tratar de explicar todo lo que se necesita para aprobar el final independientemente del tema. Hay muchas cosas que uno lo puede deducir, pero en esta cátedra el más mínimo error es motivo para un 2(dos).
 
 ## 💀 Final Taller de Programación
 
-En esta página voy a tratar de explicar todo lo que se necesita para aprobar el final independientemente del tema. Hay muchas cosas que uno lo puede deducir, pero en esta cátedra el más mínimo error es motivo para un 2(dos).
 
 ### Final Pascal
 
@@ -117,7 +118,7 @@ Bien una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 
 #### Punto B
 
-- Al decir que recibe un vector de listas y devuelve una sola lista nos indica que tenemos que usar un **merge**
+- Al decir que recibe un vector de listas y devuelve una sola lista nos indica que tenemos que usar un **merge** y por defecto usamos un **agregarAtras** en el modulo de minimo.
 - Cuando nos dice que para cada nro de calle en especifica, ya sabemos que es un **merge acumulador** (un merge normal pero con un corte de control)
 - Para los merges acumuladores es recomendable crear una estructura de datos aparte, que tenga los datos solicidatos, en este caso, **nro de calle**, **cantidad total de denuncias** y **cantidad de denuncias realizadas en el mes de julio**
 
@@ -125,4 +126,18 @@ Bien una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 Bien, en este caso, yo lo que hago siempre es hacer el module en forma iterativa, para probar y despues lo paso a recursivo. Basicamente cambias el **while** por el **if** y despues llavas cambias en donde se incrementa la variable, por una llamada a la funcion con el incremento o modificación correspondiente.
 
 
+### Final Arboles
+
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/749e071a-179f-4db5-97f3-1c2ede2e5fb8)
+
+Tenemos **recital** con los siguientes datos
+
+- Nombre de la Banda
+- Fecha del recital
+- Cantidad de canciones tocadas
+- Monto recaudado por la venta de entradas
+
+Bien, una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
+
+#### Punto A
+- En el momento que nos dice que tienen que estar en **una estructura que permite el recorrido optimo**
