@@ -477,6 +477,8 @@ end.
 
 ## Final Objetos
 
+- [Video para instalar Java](https://www.youtube.com/watch?v=MXHsvSvJpHI&ab_channel=TecnoTutoriales)
+
 En todos los finales de objetos son mas o menos lo mismo, con resolver bien este final creo que abarcas todos los temas de objetos.
 
 > Cuando rendi este final me dijieron que tenia un 10 en el practico, pero me fue mal en las preguntas teoricas.
@@ -505,6 +507,189 @@ Lo mas importante es identificar los objetos con sus atributos y herencias que t
 Una vez que definimos todos los tipos de datos. Empezamos a ver los puntos y definimos los metodos segun el objeto.
 - Cuando decimos que debe instanciarse con todos sus datos, nos referimos al constructor.
 
+#### Main (Falta el de dobles pero me estoy durmiendo y no tengo muchas ganas)
+
+```java
+public class Ultimo {
+
+    public static void main(String[] args) {
+
+        Tenista t1 = new Tenista("Fabian",2,12);
+        Tenista t2 = new Tenista("Fernando",1,1);
+        
+        String fecha = "1-1-2023";
+        String lugar = "La Plata";
+        
+        Single partidoS = new Single(fecha,lugar,t1,t2); 
+        partidoS.registrarResultado(1, 2);
+        partidoS.registrarResultado(1, 2);
+        partidoS.registrarResultado(1, 2);
+        
+        partidoS.otorgarPremio(100000);
+    }
+}
+```
+
+
+#### Tenista
+
+```java
+public class Tenista {
+    private String nombre;
+    private int partidosGanados;
+    private double premios;
+    
+    public Tenista(String nombre, int partidosGanados, double premios){
+        this.nombre = nombre;
+        this.partidosGanados = partidosGanados;
+        this.premios = premios;
+    }
+    
+    public void ganoPartido(){
+        this.partidosGanados++;
+    }
+    
+    public void agregarPremio(double premio){
+        this.premios = this.premios + premio;
+    }
+    
+    public int getPartidosGanados(){
+        return this.partidosGanados;
+    }
+}
+```
+
+#### Partido
+
+```java
+public abstract class Partido {
+    private String fecha;
+    private String lugar;
+    private int lado1;
+    private int lado2;
+    
+    public Partido(String fecha, String lugar){
+        this.fecha = fecha;
+        this.lugar = lugar;
+        this.lado1 = 0;
+        this.lado2 = 0;
+    }
+    
+    public void registrarResultado(int lado1, int lado2){
+        if (lado1 > lado2) {
+            this.lado1++;
+        }
+        else{
+            this.lado2++;
+        }
+    }
+    
+    public boolean finalizo(){
+        if ((this.lado1 == 3) || (this.lado2 == 3)) {
+            return true;
+        }
+        return false;
+    }
+    
+    abstract public void otorgarPremio(double premio);
+    
+    public boolean ganoLado1(){
+        if (this.lado1 == 3){
+            return true;
+        }
+        return false;
+    }
+}
+```
+
+#### Single
+
+```java
+public class Single extends Partido {
+    private Tenista t1;
+    private Tenista t2;
+    
+    public Single(String fecha, String lugar,Tenista t1, Tenista t2){
+        super(fecha,lugar);
+        this.t1 = t1;
+        this.t2 = t2;
+    }
+
+    @Override
+    public void otorgarPremio(double premio) {
+        //Suponemos que el partido termino (algun lado tiene 3 sets ganados)
+        if (this.ganoLado1()){
+            this.t1.ganoPartido();
+            this.t1.agregarPremio(premio);
+        }
+        else{
+            this.t2.ganoPartido();
+            this.t2.agregarPremio(premio);
+        }
+    }
+}
+```
+
+#### Doble
+
+```java
+public class Doble extends Partido {
+    Tenista t1E1;
+    Tenista t2E1;
+    Tenista t1E2;
+    Tenista t2E2;
+    
+    public Doble (String fecha, String lugar, Tenista t1E1, Tenista t2E1, Tenista t1E2, Tenista t2E2){
+        super(fecha, lugar);
+        this.t1E1 = t1E1;
+        this.t2E1 = t2E1;
+        this.t1E2 = t1E1;
+        this.t2E2 = t1E2;
+    }
+
+    public double calcularPremio(int ganadosJ1, int ganadosJ2){
+        return (ganadosJ1 / (ganadosJ1 + ganadosJ2));
+    }
+    @Override
+    public void otorgarPremio(double premio) {
+        double premio1,premio2 = 0;
+        if (this.ganoLado1()){
+            premio1 = premio * this.calcularPremio(this.t1E1.getPartidosGanados(), this.t2E1.getPartidosGanados());
+            this.t1E1.agregarPremio(premio1);
+            premio2 = premio * this.calcularPremio(this.t2E1.getPartidosGanados(), this.t1E1.getPartidosGanados());
+            this.t2E1.agregarPremio(premio2);
+        }
+        else{
+            premio1 = premio * this.calcularPremio(this.t1E2.getPartidosGanados(), this.t2E2.getPartidosGanados());
+            this.t1E2.agregarPremio(premio1);
+            premio2 = premio * this.calcularPremio(this.t2E2.getPartidosGanados(), this.t1E2.getPartidosGanados());
+            this.t2E2.agregarPremio(premio2);
+        }
+    }
+}   
+```
+
+
 
 ### Final Concurrente
+
+- [Archivo para programar](https://github.com/Fabo-University/Taller-de-Programacion/blob/main/r-Info-2.9.jar)
+
 ![concurrente](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/3bca1075-53a7-4524-955d-bc41ca1af59a)
+
+### El programa tiene la siguiente estructura:
+
+- **programa NombrePrograma**
+- **procesos**
+    - **proceso x()**
+- **areas**
+    - **area1** : AreaP(5, 1, 5, 10) // Recorre la avenida 5, desde la calle 1 hasta la 10
+- **robots**
+    - **robot RECOLECTOR**
+- **variables**
+    - **R1** : RECOLECTOR
+- **comenzar**
+    - **AsignarArea**(R1, area1)
+    - **Iniciar**(R1, 5, 1)
+- **fin**
+
