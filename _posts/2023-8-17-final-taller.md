@@ -129,6 +129,198 @@ Bien una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 #### Punto C
 Bien, en este caso, yo lo que hago siempre es hacer el module en forma iterativa, para probar y despues lo paso a recursivo. Basicamente cambias el **while** por el **if** y despues llavas cambias en donde se incrementa la variable, por una llamada a la funcion con el incremento o modificación correspondiente.
 
+
+### Codigo Completo (No lo probe)
+
+```pascal
+program imperativo;
+const
+    DIMF = 6;
+type
+    categoria = 1..DIMF;
+    direccion = record
+        nroCalle:integer;
+        nroAltura:integer;
+    end;
+    denuncia = record
+        cat:categoria;
+        DNI:integer;
+        dir:direccion;
+        mes:integer;
+        dia:integer;
+        hora:integer;
+    end;
+    lista = ^nodo;
+    nodo = record
+        dato:denuncia;
+        sig:lista;
+    end;
+    vectorContador = array [1..DIMF] of lista;
+
+    datoNuevo = record
+        nroCalle:integer;
+        denunciasTotales:integer;
+        denunciasJulio:integer;
+    end;
+    listaNueva = ^nodoNuevo;
+    nodoNuevo = record
+        dato:datoNuevo;
+        sig:listaNueva;
+    end;
+
+procedure insertarOrdenado(var l:lista;d:denuncia);
+var
+    act,ant,nue:lista;
+begin
+    new(nue);
+    nue^.dato:=d;
+    act:=l;
+    ant:=l;
+    while (act <> nil) and (act^.dato.DNI < d.DNI) do
+    begin
+        ant:=act;
+        act:=act^.sig;
+    end;
+    if (act = ant) then
+        l:=nue
+    else
+        ant^.sig:=nue;
+    nue^.sig:=act;
+end;
+
+procedure imprimirLista(l:lista);
+begin
+    while l <> nil do
+    begin
+        WriteLn(l^.dato.DNI);
+        l:=l^.sig;
+    end;
+end;
+
+procedure agregarAtras(var l,ult:listaNueva; nro:datoNuevo);
+var
+    nue:listaNueva;
+begin
+    new(nue);
+    nue^.dato:=nro;
+    nue^.sig:=nil;
+    if (l = nil) then
+        l:=nue
+    else
+        ult^.sig:=nue;
+    ult:=nue;    
+end;
+
+procedure leerDenuncia(var d:denuncia);
+begin
+    
+    writeln('Ingresar dni: '); ReadLn(d.DNI);
+
+    if (d.DNI <> 0) then
+    begin
+        writeln('Ingresar categoria: '); ReadLn(d.cat);
+        writeln('Ingresar nroCalle: '); ReadLn(d.dir.nroCalle);
+        writeln('Ingresar nroAltura: '); ReadLn(d.dir.nroAltura);
+        writeln('Ingresar mes: '); ReadLn(d.mes);
+        writeln('Ingresar dias: '); ReadLn(d.dia);
+        writeln('Ingresar hora: '); ReadLn(d.hora);
+    end;
+end;
+
+procedure cargarDenuncias(var vc:vectorContador);
+var
+    d:denuncia;
+begin
+    leerDenuncia(d);
+    while (d.DNI <> 0) do
+    begin
+        insertarOrdenado(vc[d.cat],d);
+        leerDenuncia(d);
+    end;
+end;
+procedure inicializarVector (var vc:vectorContador);
+var
+    i:integer;
+begin
+    for i:=1 to DIMF do
+    begin
+        vc[i]:=nil;
+    end;
+end;
+
+procedure minimo(vc:vectorContador; var min:denuncia);
+var
+    posMin:integer;
+    i:integer;
+begin
+    posMin:=-1;
+    min.DNI:=9999;
+    for i:=1 to DIMF do
+    begin
+        if (vc[i] <> nil) and (vc[i]^.dato.DNI < min.DNI) then
+        begin
+            min.DNI:=vc[i]^.dato.DNI;
+            posMin:=i;
+        end;
+    end;
+    if (posMin <> -1) then
+    begin
+        min:=vc[posMin]^.dato;
+        vc[posMin]:=vc[posMin]^.sig;
+    end;
+end;
+procedure mergeAcumulador(vc:vectorContador;var ln:listaNueva);
+var
+    min:denuncia;
+    actual:datoNuevo;
+    ult:listaNueva;
+begin
+    ult:=nil;
+    minimo(vc,min);
+    while (min.DNI <> 9999) do
+    begin
+        actual.nroCalle:=min.DNI;
+        actual.denunciasTotales:=0;
+        actual.denunciasJulio:=0;
+        while (min.DNI <> 9999) and (actual.nroCalle = min.DNI)  do
+        begin
+            actual.denunciasTotales:=actual.denunciasTotales + 1;
+            if (min.mes = 6) then
+                actual.denunciasJulio:=actual.denunciasJulio + 1;
+            minimo(vc,min);  
+        end;
+        agregarAtras(ln,ult,actual);
+    end;
+end;
+procedure calleDenuncias(l:listaNueva;var nroCalle:integer;calleMax:integer);
+begin
+    if l <> nil then
+    begin
+        if (calleMax < l^.dato.denunciasTotales) then
+        begin
+            calleMax:=l^.dato.denunciasTotales;
+            nroCalle:=l^.dato.nroCalle;
+        end;
+        calleDenuncias(l^.sig,nroCalle,calleMax)
+    end;
+end;
+var
+    vc:vectorContador;
+    l:listaNueva;
+    calleDenuncias:integer;
+    calleMaxima:integer;
+begin
+    inicializarVector(vc);
+    cargarDenuncias(vc);
+    mergeAcumulador(vc,l);
+    calleDenuncias:=0;
+    calleMaxima:=-1;
+    calleMasDenuncias(l,calleDenuncias,calleMaxima);
+    writeln('La calle con mas denuncias es: ', calleDenuncias);
+end.
+```
+
+
 ---
 
 ### Final Arboles
