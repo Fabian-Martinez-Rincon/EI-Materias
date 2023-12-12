@@ -92,6 +92,8 @@ begin
 end;
 ```
 
+> IMPORTANTE: Yo no avanzaria hasta saber bien estos codigos, ya que si tenes algun error en estos es causa de desaprobar :,(
+
 Y con esto nos aseguramos de tener todo en orden.
 
 
@@ -328,6 +330,8 @@ end.
 > En este final tenia mal el recorrido del arbol, lo puse dos condicionales en la condicion base. (Y siempre va <> nil en la condicion base)
 
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/749e071a-179f-4db5-97f3-1c2ede2e5fb8)
+
+> IMPORTANTE: Primero te diria que resuelvas este parcial con full enteros y despues le agregues los datos compuestos, ya que es mas facil/rapido de testear
 
 Tenemos **recital** con los siguientes datos
 
