@@ -693,3 +693,47 @@ public class Doble extends Partido {
     - **Iniciar**(R1, 5, 1)
 - **fin**
 
+### Extraemos los datos del enunciado
+
+```
+programa final
+procesos
+  proceso VaciarBolsa
+  comenzar
+    mientras (HayFlorEnLaBolsa)
+      depositarFlor
+    mientras (HayPapelEnLaBolsa)
+      depositarPapel
+  fin
+areas
+  area1: AreaP(1,1,20,1)
+  area2: AreaP(1,2,20,2)
+  area3: AreaP(1,3,20,3)
+  area4: AreaP(1,4,20,4)
+robots
+  robot TIPO1
+  comenzar
+    VaciarBolsa
+    derecha
+    repetir 19
+      mover
+  fin
+variables
+  R1:TIPO1
+  R2:TIPO1
+  R3:TIPO1
+  R4:TIPO1
+comenzar
+
+  AsignarArea(R1,area1)
+  AsignarArea(R2,area2)
+  AsignarArea(R3,area3)
+  AsignarArea(R4,area4)
+  Iniciar(R1,1,1)
+  Iniciar(R2,1,2)
+  Iniciar(R3,1,3)
+  Iniciar(R4,1,4)
+fin
+```
+
+> Ya me fui para el final xd, espero que todo salga bien
