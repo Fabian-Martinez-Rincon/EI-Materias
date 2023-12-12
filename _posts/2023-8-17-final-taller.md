@@ -333,6 +333,8 @@ end.
 
 > IMPORTANTE: Primero te diria que resuelvas este parcial con full enteros y despues le agregues los datos compuestos, ya que es mas facil/rapido de testear
 
+En los teoricos suelen tomar el recorrido optimo del arbol
+
 Tenemos **recital** con los siguientes datos
 
 - Nombre de la Banda
@@ -354,7 +356,122 @@ Bien, una vez que tenemos estos datos, podemos empezar a ver los puntos dados.
 
 - Aca simplemente hacemos el modulo iterativo, cambiamos el while por el if y despues cambiamos el incremento de la variable, por la llamada al proceso con el incremento como parametro.
 
+
+#### Codigo Completo (No lo probe)
+
+```pascal
+program arboles;
+type
+    recital = record
+        nombreBanda:String;
+        fecha:String;
+        cantTocadas:integer;
+        montoRecaudado:real;
+    end;
+    arbol = ^nodo;
+    nodo = record
+        dato:recital;
+        HI:arbol;
+        HD:arbol;
+    end;
+    lista = ^nodoNuevo;
+    nodoNuevo = record
+        dato:recital;
+        sig:lista;
+    end;
+
+procedure crearArbol(var abb:arbol;nro:recital);
+begin
+    if (abb = nil) then
+    begin
+        new(abb);
+        abb^.dato:=nro;
+        abb^.HI:=nil;
+        abb^.HD:=nil;
+    end
+    else
+        if (abb^.dato.montoRecaudado > nro.montoRecaudado) then
+            crearArbol(abb^.HI,nro)
+        else
+            crearArbol(abb^.HD,nro);
+end;
+
+procedure leerRecital(var r:recital);
+begin
+    Write('Ingresar nombreBanda: '); ReadLn(r.nombreBanda);
+    if (r.nombreBanda <> 'ZZZ') then
+    begin
+        Write('Ingresar fecha: '); ReadLn(r.fecha);
+        Write('Ingresar cantTocadas: '); ReadLn(r.cantTocadas);
+        Write('Ingresar monto Recaudado: '); ReadLn(r.montoRecaudado);
+    end;
+end;
+procedure LeerRecitales(var abb:arbol);
+var
+    dato:recital;
+begin
+    leerRecital(dato);
+    while dato.nombreBanda <> 'ZZZ' do
+    begin
+        crearArbol(abb,dato);
+        leerRecital(dato);
+    end;
+end;
+procedure agregarAdelante(var l:lista; r:recital);
+var
+    nue:lista;
+begin
+    new(nue);
+    nue^.dato:=r;
+    nue^.sig:=l;
+    l:=nue;
+end;
+
+procedure entreRango(abb:arbol;nro1,nro2:integer;var l:lista);
+begin
+    if (abb <> nil)then
+    begin
+        if (abb^.dato.montoRecaudado < nro1) then
+            entreRango(abb^.HD,nro1,nro2,l)
+        else if (abb^.dato.montoRecaudado > nro2) then
+            entreRango(abb^.HI,nro1,nro2,l)
+        else
+            begin
+                entreRango(abb^.HI,nro1,nro2,l);
+                agregarAdelante(l,abb^.dato);
+                entreRango(abb^.HD,nro1,nro2,l);
+            end;
+    end;
+end;
+procedure recitalesMas12Canciones(l:lista; var cantMas12:integer);
+begin
+    if (l <> nil) then
+    begin
+        if (l^.dato.cantTocadas >= 12) then
+          cantMas12:= cantMas12 + 1;
+        recitalesMas12Canciones(l^.sig,cantMas12);
+    end;    
+end;
+var
+    abb:arbol;
+    nro1,nro2:integer;
+    l:lista;
+    cantMas12:integer;
+begin
+    abb:=nil;
+    LeerRecitales(abb);
+    nro1:=3;
+    nro2:=8;
+    l:=nil;
+    entreRango(abb,nro1,nro2,l);
+    cantMas12:=0;
+    recitalesMas12Canciones(l,cantMas12);
+    WriteLn('La cantidad de recitales que tocaron mas de 12 canciones son:', cantMas12);
+end.
+```
+
 ---
+
 
 ## Final Objetos
 
