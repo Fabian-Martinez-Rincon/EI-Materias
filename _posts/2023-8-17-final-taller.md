@@ -705,35 +705,92 @@ procesos
     mientras (HayPapelEnLaBolsa)
       depositarPapel
   fin
+  proceso recorrerAvenida
+  comenzar
+    derecha
+    mover
+    repetir 18
+      mover
+      si HayFlorEnLaEsquina
+        tomarFlor
+  fin
+  proceso depositarFlores
+  variables
+    av:numero
+    ca:numero
+  comenzar
+    av:=PosAv
+    ca:=PosCa
+    mientras HayFlorEnLaBolsa
+      BloquearEsquina(1,6)
+      Pos(1,6)
+      depositarFlor
+      Pos(av,ca)
+      LiberarEsquina(1,6)
+  fin
 areas
   area1: AreaP(1,1,20,1)
   area2: AreaP(1,2,20,2)
   area3: AreaP(1,3,20,3)
   area4: AreaP(1,4,20,4)
+  area5: AreaP(1,5,1,5)
+  areaMulti: AreaPC(1,6,1,6)
 robots
   robot TIPO1
+  variables
+    av:numero
+    ca:numero
+    id:numero
   comenzar
+    RecibirMensaje(id,RF)
+    av:=PosAv
+    ca:=PosCa
     VaciarBolsa
-    derecha
-    repetir 19
-      mover
+    recorrerAvenida
+    depositarFlores
+    EnviarMesanje(id,RF)
+    Pos(av,ca)
+  fin
+  robot FISCALIZADOR
+  variables
+    idFinal1:numero
+    idFinal2:numero
+    id:numero
+  comenzar
+    EnviarMensaje(1,R1)
+    EnviarMensaje(2,R2)
+    EnviarMensaje(3,R3)
+    EnviarMensaje(4,R4)
+
+    RecibirMensaje(idFinal1,*)
+    RecibirMensaje(idFinal2,*)
+    RecibirMensaje(id,*)
+    RecibirMensaje(id,*)
+
   fin
 variables
   R1:TIPO1
   R2:TIPO1
   R3:TIPO1
   R4:TIPO1
+  RF:FISCALIZADOR
 comenzar
-
   AsignarArea(R1,area1)
+  AsignarArea(R1,areaMulti)
   AsignarArea(R2,area2)
+  AsignarArea(R2,areaMulti)
   AsignarArea(R3,area3)
+  AsignarArea(R3,areaMulti)
   AsignarArea(R4,area4)
+  AsignarArea(R4,areaMulti)
+  AsignarArea(RF,area5)
+  
   Iniciar(R1,1,1)
   Iniciar(R2,1,2)
   Iniciar(R3,1,3)
   Iniciar(R4,1,4)
+  Iniciar(RF,1,5)
 fin
 ```
 
-> Ya me fui para el final xd, espero que todo salga bien
+> La primera parte la hice mas o menos asi, para simular cuando lleguen todos, se podria usar un repetir o un recibirMensaje en el fiscalizador 4 veces, para saber que estan todos listos
