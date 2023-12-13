@@ -794,3 +794,7 @@ fin
 ```
 
 > La primera parte la hice mas o menos asi, para simular cuando lleguen todos, se podria usar un repetir o un recibirMensaje en el fiscalizador 4 veces, para saber que estan todos listos
+
+Hay varios parciales que son mas faciles en mi github
+
+- [Link](https://github.com/Fabo-University/Taller-de-Programacion)
