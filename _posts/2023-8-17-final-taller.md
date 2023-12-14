@@ -11,7 +11,6 @@ En esta página voy a tratar de explicar todo lo que se necesita para aprobar el
 
 # 💀 Final Taller de Programación
 
-
 ## Final Pascal
 
 - [Video para instalar pascal en vs-code](https://www.youtube.com/watch?v=kN9NGex2-yg&ab_channel=Cio)
