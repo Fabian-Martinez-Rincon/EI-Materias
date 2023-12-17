@@ -34,7 +34,7 @@ Begin
     New(nue);  
     nue^.datos:=x;  
     nue^.sig:=L;  
-    L:=nue;
+    L:=nue; 
 End;    
 ```
 
