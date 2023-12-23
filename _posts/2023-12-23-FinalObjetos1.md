@@ -13,8 +13,8 @@ Bueno, para preparar este final, simplemente voy a repasar un poco los ejercicio
 
 <details open><summary>UML</summary>
 
-<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/471dede8-47f3-42bb-9488-2d2988593278'>
-<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/0f698a90-97a1-481c-8053-ec0d29003f9d'>
-<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c84e4bc7-6510-4328-a020-d5bde57020a2'>
+<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b36197a1-74f9-4f87-8949-8e0e7398984d'>
+<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/1d01ed0a-640a-4278-98af-91b610df5deb'>
+<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/0ad543a2-3498-42f3-87a3-2f6b36280d7f'>
 
 </details>
