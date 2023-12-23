@@ -797,3 +797,14 @@ fin
 Hay varios parciales que son mas faciles en mi github
 
 - [Link](https://github.com/Fabo-University/Taller-de-Programacion)
+
+
+---
+
+### Aprobe :D 8
+
+En el teorico me preguntaron sobre el recorrido de un arbol de forma optima, que es lo que esta arriba y tambien que tenia mal el codigo de r-info (El robot jefe recibia el id y despues las flores o algo asi).
+
+Bueno en cuanto a la practica hice tres objetos nada mas, sin herencia ni nada, un objeto **Sistema** con dos arreglos, uno para partidos y otro para apuestas (Partidos y Apuestas son los otros 2 objetos)
+
+![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/2bd33ac3-dcc6-4d6f-a465-ff86038e59c0)
