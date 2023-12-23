@@ -11,10 +11,10 @@ Bueno, para preparar este final, simplemente voy a repasar un poco los ejercicio
 
 #### Antes de empezar con el final tenemos que saber lo siguinte:
 
-<details><summary>UML</summary>
+<details open><summary>UML</summary>
 
-![1](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/471dede8-47f3-42bb-9488-2d2988593278)
-![2](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/0f698a90-97a1-481c-8053-ec0d29003f9d)
-![uml](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c84e4bc7-6510-4328-a020-d5bde57020a2)
+<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/471dede8-47f3-42bb-9488-2d2988593278'>
+<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/0f698a90-97a1-481c-8053-ec0d29003f9d'>
+<img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c84e4bc7-6510-4328-a020-d5bde57020a2'>
 
 </details>
